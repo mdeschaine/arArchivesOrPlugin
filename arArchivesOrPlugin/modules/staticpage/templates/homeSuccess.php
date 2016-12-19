@@ -40,7 +40,7 @@
     <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
   </div>
   <div class="span8" id="virtual-exhibit">
-    <a href="http://172.30.200.90/index.php/reuniting-finley-and-bohlman">
+    <a href="http://digitalcollections.ohs.org/reuniting-finley-and-bohlman">
       <h3>
         <?php echo __('Partnership') ?>
         <span class="title">Reuniting Finley and Bohlman</span>
@@ -55,41 +55,41 @@
 <div id="slideshow">
   <div class="slideshow-container">
   <div id="slide1" class="mySlides">
-  <a href="http://172.30.200.90/index.php/">
+  <a href="http://digitalcollections.ohs.org/">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">John Yeon Slide Collection</div>
-		<div class="small">Rural District, Silverton, Oregon</span>
+		<div class="small">Rural District, Silverton, Oregon</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide2" class="mySlides">
-    <a href="http://172.30.200.90/index.php/">
+    <a href="http://digitalcollections.ohs.org/">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Portland Garden Club Slide Collection</div>
-		<div class="small">Roses, Mr. and Mrs. Julius Meier Country Garden (Menucha)</span>
+		<div class="small">Roses, Mr. and Mrs. Julius Meier Country Garden (Menucha)</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide3"class="mySlides">
-    <a href="http://172.30.200.90/index.php/">
+    <a href="http://digitalcollections.ohs.org/">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Frank Branch Riley Collection</div>
-		<div class="small">Basket grass flowers</span>
+		<div class="small">Basket grass flowers</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide4"class="mySlides">
-    <a href="http://172.30.200.90/index.php/oregon-journal-photographic-negatives">
+    <a href="http://digitalcollections.ohs.org/oregon-journal-photographic-negatives">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Oregon Journal Photographic Negatives</div>
-		<div class="small">Baseball pregame ceremonies</span>
+		<div class="small">Baseball pregame ceremonies</div>
 		</h3>
 	</a>
   </div>
