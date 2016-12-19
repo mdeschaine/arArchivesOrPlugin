@@ -1,0 +1,516 @@
+/*
+ * This file is part of the Access to Memory (AtoM) software.
+ *
+ * Access to Memory (AtoM) is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Access to Memory (AtoM) is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Access to Memory (AtoM).  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+ #homepage-hero {
+
+  background: url(../../images/homepage-bg.jpg) no-repeat @black;
+  .background-size(cover);
+  background-position: 0 30%;
+  height: 500px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+
+  h1,
+  h2,
+  p,
+  li,
+  a {
+    color: @white;
+    line-height: 120%;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 5px;
+  }
+	h3 {
+    color: @white;
+	font-size: 18px;
+    font-style: normal;
+    margin-bottom: 5px;
+  }
+  p {
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .title {
+    display: block;
+  }
+
+}
+
+#homepage-nav {
+
+  font-family: @serifFontFamily;
+  .pull-left();
+
+  p {
+    font-size: 20px;
+	margin-bottom: 0px;
+	padding: 10px 10px 10px 10px;
+	background-color: rgb(0,45,70);
+  }
+
+  ul {
+    .nav();
+	background-color: rgb(0,45,70);
+	padding: 10px 10px 10px 10px;
+	
+  }
+
+  li {
+    
+	.clearfix();
+	&:hover {
+      background-color: rgb(48,71,89);
+	  color: rgb(3,181,181);
+	}
+	
+	a {
+    font-size: 15px;
+	font-family: @sansFontFamily;
+	color: @white;
+    display: block;
+    padding: 3px 8px 3px 8px;
+	border-bottom: 1px solid @white;
+    .text-overflow();
+    &:hover {
+      background-color: rgb(48,71,89);
+	  color: rgb(3,181,181);
+    }
+	}
+	
+    img {
+      margin-right: 10px;
+      display: inline;
+      vertical-align: middle;
+    }
+
+  }
+
+}
+#intro {
+	
+	.pull-right(); 
+	padding: 100px 10px 10px 10px;
+	
+	div {
+		display: block;
+		height: 321px;
+	}
+	
+	h2 {
+		color: @black;
+		background-color: rgb(247,206,60);
+		margin-bottom: 0px;
+		padding: 10px 10px 10px 10px;
+		
+	}
+	
+	p {
+		color: @black;
+		background-color: rgb(247,206,60);
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+
+
+
+#homepage {
+
+  margin-top: 30px;
+
+  * {
+    .box-sizing(border-box);
+  }
+
+  h3 {
+    color: @white;
+    line-height: 110%;
+    margin-bottom: 10px;
+  }
+
+  h3 span {
+    font-style: oblique;
+  }
+
+  p,
+  li {
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+
+}
+
+// Virtual exhibits
+
+#virtual-exhibit {
+
+  position: relative;
+
+  div {
+    background-image: url(http://65.media.tumblr.com/0c0c8338a463aa78cd350a13cacf913d/tumblr_o2rjltj8TF1sy1cyao1_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 321px;
+  }
+
+  h3 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+	font-style: normal;
+    padding: 8px;
+	margin-bottom: 4px;
+	color: rgb(247,206,60);
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
+  }
+  
+  .title {
+  display: block;
+    font-size: 16px;
+	font-style: normal;
+    line-height: 18px;
+	padding-top: 4px;
+	margin-bottom: 4px;
+    color: @white;
+
+  }
+
+  .small {
+    display: block;
+    font-size: 14px;
+	font-style: normal;
+    line-height: 16px;
+    color: lighten(@grayLight, 10%);
+  }
+
+  a h3 {
+    min-height: 84px;
+  }
+
+  a h3,
+  a div {
+    .transition(all 0.2s ease-in-out);
+  }
+
+  a:hover h3 {
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+  }
+
+  a:hover div {
+    background-position: left 70%;
+  }
+
+  a:hover div:after {
+    content: "›"; // "»";
+    position: absolute;
+    font-size: 128px;
+    bottom: 50px;
+    right: 50px;
+    padding: 18px 20px 40px 22px;
+    .border-radius(60px);
+    @white: rgba(255, 255, 255, .4);
+    border: 12px solid @white;
+    color: @white;
+  }
+}
+
+// Slideshow
+
+#slideshow { 
+  margin-top: 30px;
+  
+  * {
+    .box-sizing(border-box);
+  }
+  
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin-top: 0px;
+  width: 100%;
+  display: block;
+  height: 500px;
+}
+#slide1 {
+    background-image: url(http://66.media.tumblr.com/fe4614fc3faa052c94d8e0df371b00c3/tumblr_o8h6gwhazN1sy1cyao1_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+#slide2 {
+    background-image: url(http://67.media.tumblr.com/572d544e7449e929e9ffecf3fc71a430/tumblr_nwy9f1cZJx1sy1cyao1_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+#slide3 {
+    background-image: url(http://68.media.tumblr.com/23a674c49b9f2e60423cc81d0a87122f/tumblr_o9gbslDBXd1sy1cyao1_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+#slide4 {
+    background-image: url(http://172.30.200.90/uploads/r/oregon-historical-society-library/4/f/1/4f15921edffca3252376b80cfb9928864eaffbb91ac41a59ff6132f1309e7a58/49e051a2-7d1c-42b1-82a8-cd8733d97a1e-369N0005.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+h3 {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+	min-height: 84px;
+    padding: 8px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .6);
+	color: rgb(247,206,60);
+  }
+  
+  .title {
+  display: block;
+    font-size: 16px;
+    line-height: 18px;
+	margin-bottom: 4px;
+    color: @white;
+	&:hover {
+	  color: rgb(3,181,181);
+	  text-decoration: underline;
+    }
+  }
+  
+  .small {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    color: lighten(@grayLight, 10%);
+  }
+  
+
+  
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: @white;
+  background-color: rgb(0,45,70);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(48,71,89);
+	  color: rgb(3,181,181);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: rgb(0,45,70);
+  border-radius: 100%;
+  display: inline-block;
+  &:hover {
+	  background-color: rgb(3,181,181);
+    }
+}
+
+.active, .dot:hover {
+  background-color: rgb(3,181,181);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+}
+
+// NewestAdditions
+
+#newest-additions {
+
+  color: @white;
+  padding: 3px 14px 8px 14px;
+  background-color: rgb(0,45,70);
+
+  h2 {
+    
+	color: @white;
+	padding: 8px 8px 8px 8px;
+    margin: 0;
+	font-weight: bold;
+    background-color: rgb(0,45,70);
+	
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0;
+  }
+
+  li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: @white;
+    display: block;
+    padding: 3px 8px 3px 8px;
+	border-bottom: 1px solid @white;
+    .text-overflow();
+    &:hover {
+      background-color: rgb(48,71,89);
+	  color: rgb(3,181,181);
+    }
+  }
+
+}
+
+// Responsive design
+
+@media (max-width: 767px) {
+
+  #homepage {
+    margin-top: -20px;
+    padding-top: 20px;
+    border-top: 1px solid @white;
+  }
+
+  #homepage > div:first-child {
+    margin-bottom: 30px;
+  }
+
+  #homepage-hero {
+
+    background: none;
+    padding-top: 20px;
+
+  }
+
+  #homepage-nav {
+
+    ul {
+      background-color: rgba(50, 50, 50, .3);
+      .border-radius(4px);
+    }
+
+    li {
+      margin: 0;
+    }
+
+    li:hover a {
+      background-color: rgba(255, 255, 255, .4);
+    }
+
+    a {
+      padding: 6px 8px;
+      display: block;
+    }
+
+  }
+
+  #intro {
+    .hide();
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+
+  #intro p {
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 979px) {
+
+  #intro {
+    p {
+      margin-top: 8px;
+      font-size: 11px;
+    }
+    h2 {
+      margin-top: 0;
+      .title {
+        font-size: 18px;
+      }
+    }
+    margin-top: -40px;
+    margin-right: -2px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .25);
+  }
+
+}
