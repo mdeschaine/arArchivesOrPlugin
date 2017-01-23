@@ -30,7 +30,7 @@
 				<td style="width: 50px;"></td>
 				<td>Made possible by <br />
 				<br />
-				<?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-collins.png', array('alt' => __('Collins'))), 'http://digitalcollections.ohs.org/support', array('rel' => 'Collins')) ?></td>
+				<?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-collins.png', array('alt' => __('Collins'))), 'http://172.30.200.90/index.php/support', array('rel' => 'Collins')) ?></td>
 				</tr>
 				</table>
 		</div>

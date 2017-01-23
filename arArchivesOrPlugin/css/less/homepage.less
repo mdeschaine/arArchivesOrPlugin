@@ -110,25 +110,25 @@
 #intro {
 	
 	.pull-right(); 
-	padding: 100px 10px 10px 10px;
+	padding: 75px 10px 10px 10px;
 	
 	div {
 		display: block;
-		height: 321px;
+		height: 500px;
 	}
 	
 	h2 {
 		color: @black;
 		background-color: rgb(247,206,60);
 		margin-bottom: 0px;
-		padding: 10px 10px 10px 10px;
+		padding: 24px 36px 10px 36px;
 		
 	}
 	
 	p {
 		color: @black;
 		background-color: rgb(247,206,60);
-		padding: 10px 10px 10px 10px;
+		padding: 10px 36px 24px 36px;
 	}
 }
 
@@ -168,7 +168,7 @@
   position: relative;
 
   div {
-    background-image: url(http://65.media.tumblr.com/0c0c8338a463aa78cd350a13cacf913d/tumblr_o2rjltj8TF1sy1cyao1_1280.jpg);
+    background-image: url("/plugins/arArchivesOrPlugin/images/Finley-A426.jpg");
     background-repeat: no-repeat;
     background-position: 0 60%;
     background-size: cover;
@@ -260,16 +260,7 @@
   height: 500px;
 }
 #slide1 {
-    background-image: url(http://66.media.tumblr.com/fe4614fc3faa052c94d8e0df371b00c3/tumblr_o8h6gwhazN1sy1cyao1_1280.jpg);
-    background-repeat: no-repeat;
-    background-position: 0 60%;
-    background-size: cover;
-    width: 100%;
-    display: block;
-    height: 500px;
-}
-#slide2 {
-    background-image: url(http://67.media.tumblr.com/572d544e7449e929e9ffecf3fc71a430/tumblr_nwy9f1cZJx1sy1cyao1_1280.jpg);
+    background-image: url("/plugins/arArchivesOrPlugin/images/slide1.jpg");
     background-repeat: no-repeat;
     background-position: 0 40%;
     background-size: cover;
@@ -277,31 +268,41 @@
     display: block;
     height: 500px;
 }
-#slide3 {
-    background-image: url(http://68.media.tumblr.com/23a674c49b9f2e60423cc81d0a87122f/tumblr_o9gbslDBXd1sy1cyao1_1280.jpg);
+#slide2 {
+    background-image: url("/plugins/arArchivesOrPlugin/images/slide2.PNG");
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 0 50%;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: 500px;
+}
+#slide3 {
+    background-image: url("/plugins/arArchivesOrPlugin/images/slide3.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 70%;
     background-size: cover;
     width: 100%;
     display: block;
     height: 500px;
 }
 #slide4 {
-    background-image: url(http://68.media.tumblr.com/91364852ae66cb41d116c86f025e4545/tumblr_ogsyv6CSCl1sy1cyao1_1280.jpg);
+    background-image: url("/plugins/arArchivesOrPlugin/images/slide4.jpg");
     background-repeat: no-repeat;
-    background-position: 0 20%;
+    background-position: 0 50%;
     background-size: cover;
     width: 100%;
     display: block;
     height: 500px;
 }
 h3 {
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: -10px;
     left: 0;
     width: 100%;
 	min-height: 84px;
     padding: 8px;
+	margin-bottom: 4px;
     background-color: #000;
     background-color: rgba(0, 0, 0, .6);
 	color: rgb(247,206,60);
@@ -350,17 +351,26 @@ h3 {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, swap colors */
 .prev:hover, .next:hover {
   background-color: rgb(48,71,89);
 	  color: rgb(3,181,181);
 }
 
 /* The dots/bullets/indicators */
+
+#controls{
+  width: 100%;
+  position: absolute;
+  bottom: 9px;
+  display: block;
+  text-align:center;
+}
+
 .dot {
   cursor:pointer;
-  height: 13px;
-  width: 13px;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
   background-color: rgb(0,45,70);
   border-radius: 100%;

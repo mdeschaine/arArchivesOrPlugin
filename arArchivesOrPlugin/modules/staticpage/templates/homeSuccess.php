@@ -26,8 +26,9 @@
      <h2>
         Oregon Historical Society <br/>
 		Digital Collections
-	</h2>			
-    <p>The Oregon Historical Society (OHS) - Davies Family Research Library is committed to providing broad access to its collections for teaching, learning, and research. The OHS Website, catalog records, finding aids, and digital images enhance scholarship and promote use of both the digital and the original object. 
+	</h2>
+	<p>	
+    The Oregon Historical Society (OHS) - Davies Family Research Library is committed to providing broad access to our collections for teaching, learning, and research. The OHS Websites, catalog records, finding aids, and digital images enhance scholarship and promote use of both digital and physical objects. 
 	<br /> <br />A critical component of our organizational mission is to “inspire curiosity about all the people, places, and events that have shaped Oregon” and providing free and open access to our collections is key to executing that mission. </p>
   </div>
 
@@ -40,7 +41,7 @@
     <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
   </div>
   <div class="span8" id="virtual-exhibit">
-    <a href="http://digitalcollections.ohs.org/reuniting-finley-and-bohlman">
+    <a href="http://172.30.200.90/index.php/reuniting-finley-and-bohlman">
       <h3>
         <?php echo __('Partnership') ?>
         <span class="title">Reuniting Finley and Bohlman</span>
@@ -55,7 +56,7 @@
 <div id="slideshow">
   <div class="slideshow-container">
   <div id="slide1" class="mySlides">
-  <a href="http://digitalcollections.ohs.org/">
+  <a href="http://172.30.200.90/index.php/">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">John Yeon Slide Collection</div>
@@ -65,17 +66,17 @@
   </div>
 
   <div id="slide2" class="mySlides">
-    <a href="http://digitalcollections.ohs.org/">
+    <a href="http://172.30.200.90/index.php/have-you-thanked-a-blade-of-grass-today">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Portland Garden Club Slide Collection</div>
-		<div class="small">Roses, Mr. and Mrs. Julius Meier Country Garden (Menucha)</div>
+		<div class="title">OHS Film Collection</div>
+		<div class="small">"Have you Thanked A Blade of Grass Today?"</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide3"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/">
+    <a href="http://172.30.200.90/index.php/">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Frank Branch Riley Collection</div>
@@ -85,7 +86,7 @@
   </div>
 
   <div id="slide4"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/oregon-journal-photographic-negatives">
+    <a href="http://172.30.200.90/index.php/oregon-journal-photographic-negatives">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Oregon Journal Photographic Negatives</div>
@@ -96,16 +97,17 @@
   
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
 
-<div style="text-align:center">
+  <div id="controls">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>  
-</div>
+  </div>
+  </div>
+  
 
+  
 <script language='javascript'>
 var slideIndex = 1;
 showSlides(slideIndex);

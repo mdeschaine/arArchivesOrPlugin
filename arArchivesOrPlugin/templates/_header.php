@@ -36,9 +36,9 @@
 
         <div id="logo-and-name" class="span6">
           <?php if ('fr' == $sf_user->getCulture()): ?>
-            <h1><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-long.png', array('alt' => __('OHS Digital Collections'))), 'http://digitalcollections.ohs.org/', array('rel' => 'home')) ?></h1>
+            <h1><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-long.png', array('alt' => __('OHS Digital Collections'))), 'http://172.30.200.90/', array('rel' => 'home')) ?></h1>
           <?php else: ?>
-            <h1><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-long.png', array('alt' => __('OHS Digital Collections'))), 'http://digitalcollections.ohs.org/', array('rel' => 'home')) ?></h1>
+            <h1><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-long.png', array('alt' => __('OHS Digital Collections'))), 'http://172.30.200.90/', array('rel' => 'home')) ?></h1>
           <?php endif; ?>
         </div>
 
