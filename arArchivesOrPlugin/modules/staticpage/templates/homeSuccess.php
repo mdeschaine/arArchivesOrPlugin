@@ -41,7 +41,7 @@
     <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
   </div>
   <div class="span8" id="virtual-exhibit">
-    <a href="http://digitalcollections.ohs.org/reuniting-finley-and-bohlman">
+    <a href="http://172.30.200.90/reuniting-finley-and-bohlman">
       <h3>
         <?php echo __('Partnership') ?>
         <span class="title">Reuniting Finley and Bohlman</span>
@@ -57,7 +57,7 @@
   <div class="slideshow-container">
 
   <div id="slide1"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/oregon-journal-photographic-negatives">
+    <a href="http://172.30.200.90/oregon-journal-photographic-negatives">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Oregon Journal Photographic Negatives</div>
@@ -66,7 +66,7 @@
 	</a>
   </div>
   <div id="slide2" class="mySlides">
-  <a href="http://digitalcollections.ohs.org">
+  <a href="http://172.30.200.90">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
@@ -76,7 +76,7 @@
   </div>
 
   <div id="slide3" class="mySlides">
-    <a href="http://digitalcollections.ohs.org/have-you-thanked-a-blade-of-grass-today">
+    <a href="http://172.30.200.90/have-you-thanked-a-blade-of-grass-today">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">OHS Film Collection</div>
@@ -86,7 +86,7 @@
   </div>
 
   <div id="slide4"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/joel-palmer-papers">
+    <a href="http://172.30.200.90/joel-palmer-papers">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Joel Palmer Papers</div>
