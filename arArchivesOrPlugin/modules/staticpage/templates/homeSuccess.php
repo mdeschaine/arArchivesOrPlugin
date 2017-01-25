@@ -55,17 +55,27 @@
 <div class="container">
 <div id="slideshow">
   <div class="slideshow-container">
-  <div id="slide1" class="mySlides">
-  <a href="http://digitalcollections.ohs.org/">
+
+  <div id="slide1"class="mySlides">
+    <a href="http://digitalcollections.ohs.org/oregon-journal-photographic-negatives">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">John Yeon Slide Collection</div>
-		<div class="small">Rural District, Silverton, Oregon</div>
+		<div class="title">Oregon Journal Photographic Negatives</div>
+		<div class="small">Baseball</div>
+		</h3>
+	</a>
+  </div>
+  <div id="slide2" class="mySlides">
+  <a href="http://digitalcollections.ohs.org">
+    <h3>
+		<?php echo __('Featured Collection') ?>
+		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
+		<div class="small">Stereographs, 1861-1873</div>
 		</h3>
 	</a>
   </div>
 
-  <div id="slide2" class="mySlides">
+  <div id="slide3" class="mySlides">
     <a href="http://digitalcollections.ohs.org/have-you-thanked-a-blade-of-grass-today">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -75,22 +85,12 @@
 	</a>
   </div>
 
-  <div id="slide3"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/">
-    <h3>
-		<?php echo __('Featured Collection') ?>
-		<div class="title">Frank Branch Riley Collection</div>
-		<div class="small">Basket grass flowers</div>
-		</h3>
-	</a>
-  </div>
-
   <div id="slide4"class="mySlides">
-    <a href="http://digitalcollections.ohs.org/oregon-journal-photographic-negatives">
+    <a href="http://digitalcollections.ohs.org/joel-palmer-papers">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Oregon Journal Photographic Negatives</div>
-		<div class="small">Baseball pregame ceremonies</div>
+		<div class="title">Joel Palmer Papers</div>
+		<div class="small">Treaty, Walla Walla and Wasco Tribes, 1855 June 25</div>
 		</h3>
 	</a>
   </div>

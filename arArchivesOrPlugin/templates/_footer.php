@@ -26,13 +26,15 @@
 					<li><?php echo link_to(__('Copyright'), array('module' => 'staticpage', 'slug' => 'copyright-2')) ?></li>
 					<li><?php echo link_to(__('Terms of Service'), array('module' => 'staticpage', 'slug' => 'terms')) ?></li>
 					<li><?php echo link_to(__('Contact us'), array('module' => 'staticpage', 'slug' => 'contact')) ?></li>
-				</ul></td>
+				</ul></td>	
 				<td style="width: 50px;"></td>
 				<td>Made possible by <br />
 				<br />
-				<?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-collins.png', array('alt' => __('Collins'))), 'http://digitalcollections.ohs.org//support', array('rel' => 'Collins')) ?></td>
+				<?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-collins.png', array('alt' => __('Collins'))), 'http://digitalcollections.ohs.org/support', array('rel' => 'Collins')) ?></td>
 				</tr>
 				</table>
 		</div>
 	</div>
 </div>
+
+

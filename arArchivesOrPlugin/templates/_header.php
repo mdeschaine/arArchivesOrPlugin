@@ -25,7 +25,7 @@
 					<?php echo get_component('menu', 'clipboardMenu') ?>
 				</nav>
 			<?php endif; ?>
-
+          
 
         </div>
       </div>
