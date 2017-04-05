@@ -7,7 +7,7 @@
        <div id="review">
 				<table>
 				<tr>
-				<td><div class="logofooter"><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/foot-logo.png'), 'http://ohs.org', array('rel' => 'ohs')) ?></div></td>
+				<td><div class="logofooter"><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/foot-logo.png'), 'http://www.ohs.org', array('rel' => 'ohs')) ?></div></td>
 				<td style="width: 50px;"></td>
 				<td>
 				<b><p>Oregon Historical Society</p>
@@ -49,7 +49,7 @@
 <div class="foot-contact">
 <h3 class="foot__section-title">Contact Us</h3>
 <p>Oregon Historical Society <br>1200 SW Park Ave <br>Portland, OR 97205</p>
-<p><a href="tel:+15032221741">503.306.5240</a><br> <a href="mailto:libreference@ohs.org ">libreference@ohs.org</a><br> <a href="http://ohs.org/contact.cfm" target="_blank">Staff Directory</a></p>
+<p><a href="tel:+15032221741">503.306.5240</a><br> <a href="mailto:libreference@ohs.org ">libreference@ohs.org</a><br> <a href="http://www.ohs.org/contact.cfm" target="_blank">Staff Directory</a></p>
 </div>
 <div class="foot-support">
 <h3 class="foot__section-title">Resources</h3>
@@ -106,7 +106,7 @@
 </div>
 </div>
 <div class="ohsrow foot-footer">
-<p class="foot__legal"><a class="foot-footer__link" href="http://ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
+<p class="foot__legal"><a class="foot-footer__link" href="http://www.ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://www.ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
 <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
 </div>
 </footer>

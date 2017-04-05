@@ -157,7 +157,7 @@
     width: 100%;
     height: 100%;
     float: right;
-    padding: 1.6em 2.5em 1.6em 1.5em;
+    padding: 1em;
     background: transparent;
     border: 2px solid #d8dede;
     border-radius: 6px;
@@ -170,6 +170,22 @@
 // label, select, button, input[id="foot_newsletter_submit"]{
 input[id="foot_newsletter_submit"]{
 	width: 5.8125em;
+	border: 2px solid #d8dede;
 }
 
+
+@media (max-width: 375px) {
+	.foot .social-icons__item:first-of-type, .content-body .social-icons__item:first-of-type {
+		margin-left: 0;
+	}
+
+	.foot .social-icons__item, .content-body .social-icons__item {
+		font-size: 1.3em;
+		width: 33%;
+		display: block;
+		float: left;
+		text-align: center;
+		padding-bottom: 0.9375em;
+	}
+}
 

@@ -71,8 +71,8 @@
 					<?php echo get_component('menu', 'changeLanguageMenu') ?>
 					<?php echo get_component('menu', 'clipboardMenu') ?>
 					<?php echo get_component('menu', 'mainMenu', array('sf_cache_key' => $sf_user->getCulture().$sf_user->getUserID())) ?>
-                    <div style="font-size: 16px;font-weight: bold;">
-                	    <a href="#" class="explore-oregon global-nav-trigger" style="top: 13px;"><span class="explore-oregon__text">Explore Oregon History</span></a>
+                    <div class="explore-oregon__holder">
+                	    <a href="#" class="explore-oregon global-nav-trigger"><span class="explore-oregon__text">Explore Oregon History</span></a>
                     </div>
 				</nav>
 			<?php else: ?>
@@ -81,8 +81,8 @@
 					<?php echo get_component('menu', 'quickLinksMenu') ?>
 					<?php echo get_component('menu', 'changeLanguageMenu') ?>
 					<?php echo get_component('menu', 'clipboardMenu') ?>
-                  	<div style="font-size: 16px;font-weight: bold;">
-                	    <a href="#" class="explore-oregon global-nav-trigger" style="top: 13px;"><span class="explore-oregon__text">Explore Oregon History</span></a>
+                  	<div class="explore-oregon__holder">
+                	    <a href="#" class="explore-oregon global-nav-trigger"><span class="explore-oregon__text">Explore Oregon History</span></a>
                     </div>
 				</nav>
 			<?php endif; ?>
