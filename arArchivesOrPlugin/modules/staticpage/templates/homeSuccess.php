@@ -76,11 +76,11 @@
   </div>
 
   <div id="slide3" class="mySlides">
-    <a href="/us-ohy-mi09378">
+    <a href="/us-ohy-org-lot-140">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">OHS Film Collection</div>
-		<div class="small">"Have you Thanked A Blade of Grass Today?"</div>
+		<div class="title">Kiser Photo Co. Photographs</div>
+		<div class="small">View of Crater Lake, circa 1907 (Hand Colored)</div>
 		</h3>
 	</a>
   </div>
