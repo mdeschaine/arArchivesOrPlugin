@@ -28,7 +28,7 @@
 		Digital Collections
 	</h2>
 	<p>
-    The Oregon Historical Society (OHS) - Davies Family Research Library is committed to providing broad access to our collections for teaching, learning, and research. The OHS Websites, catalog records, finding aids, and digital images enhance scholarship and promote use of both digital and physical objects.
+    The Oregon Historical Society Research Library is committed to providing broad access to our collections for teaching, learning, and research. Our Websites, catalog records, finding aids, and digital images enhance scholarship and promote use of both digital and physical objects.
 	<br /> <br />A critical component of our organizational mission is to “inspire curiosity about all the people, places, and events that have shaped Oregon” and providing free and open access to our collections is key to executing that mission. </p>
   </div>
 
@@ -41,7 +41,7 @@
     <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
   </div>
   <div class="span8" id="virtual-exhibit">
-    <a href="http://172.30.200.90/reuniting-finley-and-bohlman">
+    <a href="/reuniting-finley-and-bohlman">
       <h3>
         <?php echo __('Partnership') ?>
         <span class="title">Reuniting Finley and Bohlman</span>
@@ -57,7 +57,7 @@
   <div class="slideshow-container">
 
   <div id="slide1"class="mySlides">
-    <a href="http://172.30.200.90/oregon-journal-photographic-negatives">
+    <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Oregon Journal Photographic Negatives</div>
@@ -66,7 +66,7 @@
 	</a>
   </div>
   <div id="slide2" class="mySlides">
-  <a href="http://172.30.200.90">
+  <a href="/us-ohy-org-lot-93">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
@@ -76,17 +76,17 @@
   </div>
 
   <div id="slide3" class="mySlides">
-    <a href="http://172.30.200.90/have-you-thanked-a-blade-of-grass-today">
+    <a href="/us-ohy-org-lot-140">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">OHS Film Collection</div>
-		<div class="small">"Have you Thanked A Blade of Grass Today?"</div>
+		<div class="title">Kiser Photo Co. Photographs</div>
+		<div class="small">View of Crater Lake, circa 1907 (Hand Colored)</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide4"class="mySlides">
-    <a href="http://172.30.200.90/joel-palmer-papers">
+    <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Joel Palmer Papers</div>
