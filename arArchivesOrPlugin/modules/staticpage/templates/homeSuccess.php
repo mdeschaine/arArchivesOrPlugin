@@ -30,8 +30,10 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 
  <div class="span4" id="intro">
 
+
 	<h3>Providing Broad Access</h3>
     <p>The Oregon Historical Society is committed to providing broad access to our collections for teaching, learning, and research. Our websites, catalog records, finding aids, and digital images enhance scholarship and promote use of both digital and physical objects. A critical component of our mission is to “inspire curiosity about all the people, places, and events that have shaped Oregon,” and providing free and open access to our collections is key to executing that mission.</p>
+
   </div>
 
 </div>
@@ -66,7 +68,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <div class="slideshow-container">
 
   <div id="slide1"class="mySlides">
-    <a href="/oregon-journal-photographic-negatives">
+    <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Oregon Journal Photographic Negatives</div>
@@ -75,7 +77,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
   <div id="slide2" class="mySlides">
-  <a href="http://172.30.200.90">
+  <a href="/us-ohy-org-lot-93">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
@@ -85,17 +87,17 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   </div>
 
   <div id="slide3" class="mySlides">
-    <a href="http://172.30.200.90/have-you-thanked-a-blade-of-grass-today">
+    <a href="/us-ohy-org-lot-140">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">OHS Film Collection</div>
-		<div class="small">"Have you Thanked A Blade of Grass Today?"</div>
+		<div class="title">Kiser Photo Co. Photographs</div>
+		<div class="small">View of Crater Lake, circa 1907 (Hand Colored)</div>
 		</h3>
 	</a>
   </div>
 
   <div id="slide4"class="mySlides">
-    <a href="http://172.30.200.90/joel-palmer-papers">
+    <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
 		<div class="title">Joel Palmer Papers</div>
