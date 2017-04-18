@@ -48,6 +48,7 @@
                     <li class="global-nav__item current"><a href="#" class="global-nav__link"><span class="global-nav__break">OHS Digital</span> Collections <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/ohs-digital-collections-thumb.png" alt></div></a></li>
                     <li class="global-nav__item"><a href="http://www.oregonhistoryproject.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon History</span> Project <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/mockup-nav-3.png" alt></div></a></li>
                     <li class="global-nav__item"><a href="http://www.oregonencyclopedia.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon</span> Encyclopedia <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/OrHi_78867_Vanport_School.jpg" alt></div></a></li>
+                    <li class="global-nav__item"><a href="http://oregonhistorywayfinder.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon History</span> Wayfinder <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/1811-Trailmarker-FSDM2.jpg" alt=""></div></a></li>
                 </ul>
             </nav>
         </div>
