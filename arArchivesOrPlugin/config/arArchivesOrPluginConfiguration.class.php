@@ -33,11 +33,22 @@ class arArchivesOrPluginConfiguration extends sfPluginConfiguration
     {
       $context->response->addJavaScript('/vendor/less.js');
       $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/main.less', 'last', array('rel' => 'stylesheet/less', 'type' => 'text/css', 'media' => 'all'));
+	  $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/global_nav-standalone.css', 'last', array('media' => 'all'));
+	  $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/ohs-foot.css', 'last', array('media' => 'all'));
+
     }
     else
     {
       $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/min.css', 'last', array('media' => 'all'));
+	  $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/global_nav-standalone.css', 'last', array('media' => 'all'));
+	  $context->response->addStylesheet('/plugins/arArchivesOrPlugin/css/ohs-foot.css', 'last', array('media' => 'all'));
+
     }
+	
+	$context->response->addJavaScript('https://use.typekit.net/fsp3qzh.js');
+    $context->response->addJavaScript('/plugins/arArchivesOrPlugin/vendor/typekit-load.js');
+	
+    
   }
 
   public function initialize()

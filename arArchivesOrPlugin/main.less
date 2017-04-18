@@ -43,10 +43,6 @@ h2 {
   font-weight: bold;
   line-height: 1.3;
   text-decoration: none;
-  font-variant-numeric: lining-nums;
-  -moz-font-feature-settings: "lnum";
-  -webkit-font-feature-settings: "lnum";
-  font-feature-settings: "lnum";
 }
 h3, 
 h4 {
@@ -115,23 +111,6 @@ h6 {
   p {
   	margin: 10px 0 10px 0;
   }
-  
-	section h2:last-child {
-	  font-size: 16px;
-	  border-top: 1px solid #f2f2f2;
-	  border-bottom: 1px solid #f2f2f2;
-	  margin: 0;
-	  padding: 10px 10px;	
-	}
- 
- ul {
- 	margin: 10px 0 10px 0;	
- 	}
-  
- .field {
-    margin-right: 8px;
-	} 
-  
 }
 
 h1 { font-size: 24px; }
@@ -220,8 +199,13 @@ th {
     font-size: 20px;
 }
 
-#identifyArea h2,
-#elementsArea h2,
+#identifyArea h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
 #identityArea h2 {
   font-size: 16px;
   border-bottom: 1px solid #f2f2f2;
@@ -229,21 +213,7 @@ th {
   padding: 10px 10px;	
 }
 
-
-
-#contextArea h2,
-#contentAndStructureArea h2,
-#contactArea h2,
-#accessArea h2,
-#notesArea h2,
-#acquisitionAndAppraisalArea h2,
-#conditionsOfAccessAndUseArea h2,
-#controlArea h2,
-#descriptionControlArea h2,
-#descriptionArea h2,
-#alliedMaterialsArea h2,
-#content .digitalObjectMetadata h2,
-#accessPointsArea h2 {
+#contextArea h2 {
   font-size: 16px;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
@@ -251,13 +221,95 @@ th {
   padding: 10px 10px;	
 }
 
-// .digitalObjectMetadata {
-//   font-size: 16px;
-//   border-top: 1px solid #f2f2f2;
-//   margin: 0;
-//   padding: 0px 0px;
-// }
+#contentAndStructureArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
 
+
+#contactArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#accessArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#notesArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#conditionsOfAccessAndUseArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+
+#controlArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#descriptionControlArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#descriptionArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#alliedMaterialsArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
+
+#content .digitalObjectMetadata h2 {
+	  font-size: 16px;
+	  border-top: 1px solid #f2f2f2;
+	  border-bottom: 1px solid #f2f2f2;
+	  margin: 0;
+	  padding: 10px 10px;
+}
+
+#accessPointsArea h2 {
+  font-size: 16px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0;
+  padding: 10px 10px;	
+}
 
 #content .field > h3 {
     float: left;
