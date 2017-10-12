@@ -30,8 +30,8 @@
  }
  
  #header {
-  height: 118px;
-  border-bottom: 3px solid rgb(247,206,60); 
+  height: 120px;
+  /*border-bottom: 3px solid rgb(247,206,60);*/ 
   background-color: rgb(0,45,70);
 }
 
@@ -76,6 +76,8 @@
 
 #logo-and-name h1 {
 	.pull-left();
+  line-height: inherit;
+  font-size: 22px;	
   margin-left: 10px;
   margin-top: -30px;
 }
@@ -167,21 +169,33 @@
 
 // Responsive design
 
-@media (min-width: 1215px) {
+@media (min-width: 1200px) {
   #header-search input[type=text] {
     width: 500px;
   }
 }
 
-@media (min-width: 980px) and (max-width: 1214px) {
+@media (min-width: 980px) and (max-width: 1199px) {
   #header-search input[type=text] {
     width: 390px;
+  }
+  #header {
+    height: inherit;
+  }
+  #header-lvl1 {
+  	height: 70px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
   #header-search input[type=text] {
     width: 290px;
+  }
+  #header {
+    height: inherit;
+  }
+  #header-lvl1 {
+  	height: 70px;
   }
 }
 
@@ -192,20 +206,29 @@
   #top-bar {
     .hide();
   }
-  #logo-and-name h1 {
-    margin: 6px 0 0 0;
-    text-align: center;
+  #logo-and-name {
+    margin: 6px auto 12px auto;
+	width: 90%;
+  //   text-align: center;
   }
   #header {
-    height: 180px;
+    height: inherit;
     margin-left: -20px;
     margin-right: -20px;
+  }
+  #header-lvl1 {
+    margin-bottom: 2em;
+  }
+  #header-lvl2 {
+    margin-bottom: 1em;
   }
   #header-search {
     margin: 10px auto 0 auto;
     .input-append {
       text-align: center;
       width: 100%;
+	  float: left;
+      padding-bottom: 2em;
     }
     form {
       text-align: center;
@@ -217,5 +240,8 @@
   #header-nav {
     display: block;
     clear: both;
+  }
+  .repository-logo {
+	text-align: center;
   }
 }
