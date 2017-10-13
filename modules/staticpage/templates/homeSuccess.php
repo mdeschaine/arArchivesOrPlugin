@@ -71,8 +71,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Oregon Journal Photographic Negatives</div>
-		<div class="small">Baseball</div>
+		<div class="title">Oregon Journal Photographic Negatives - Agriculture and Animals</div>
+		<div class="small">Three boys with sheep</div>
 		</h3>
 	</a>
   </div>
