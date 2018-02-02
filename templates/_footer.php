@@ -28,7 +28,7 @@
 <br>Wednesday – Saturday:
 <br>10am – 5pm</span></p></div>
 <div class="foot-resources">
-<h3 class="foot__section-title">Support OHS Digital Collections</h3>
+<h3 class="foot__section-title">Support OHS <br>Digital Collections</h3>
 <p><a href="https://orhs.ejoinme.org/?tabid=530307" target="_blank">Donate Online</a></p>
 <p><a href="http://www.ohs.org/support/forward-campaign.cfm" target="_blank">FORWARD! Campaign</a></p>
 </div>
