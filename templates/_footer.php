@@ -28,8 +28,10 @@
 <br>Wednesday – Saturday:
 <br>10am – 5pm</span></p></div>
 <div class="foot-resources">
-<h3 class="foot__section-title">Made Possible By:</h3>
-<p style="margin-top: 15px;"><?php echo link_to(image_tag('/plugins/arArchivesOrPlugin/images/logo-collins.png', array('alt' => __('Collins'))), 'http://www.collinsfoundation.org/', array('rel' => 'Collins', 'target' => '_blank')) ?></p>
+<h3 class="foot__section-title">Support OHS Digital Collections</h3>
+<p style="margin-top: 15px;"><a href="https://orhs.ejoinme.org/?tabid=530307" target="_blank">Donate Online</a></p>
+<br>
+<p><a href="http://www.ohs.org/support/forward-campaign.cfm" target="_blank">FORWARD! Campaign</a></p>
 </div>
 </div>
 <div class="foot__right-side">
@@ -70,5 +72,5 @@
 <p class="foot__legal"><a class="foot-footer__link" href="http://www.ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://www.ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
 <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
 </div>
-	
+
 </footer>
