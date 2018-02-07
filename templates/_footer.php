@@ -29,7 +29,7 @@
 <br>10am – 5pm</span></p></div>
 <div class="foot-resources">
 <h3 class="foot__section-title">Support OHS <br>Digital Collections</h3>
-<p><a href="https://orhs.ejoinme.org/?tabid=530307" target="_blank">Donate Online</a>
+<p><a href="https://orhs.ejoinme.org/digitalcollections" target="_blank">Donate Online</a>
 <br><a href="http://www.ohs.org/support/forward-campaign.cfm" target="_blank">FORWARD! Campaign</a></p>
 </div>
 </div>
