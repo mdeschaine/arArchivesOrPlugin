@@ -63,6 +63,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	  </div>
 </div>
 </div>
+
 <div class="container">
 <div id="slideshow">
   <div class="slideshow-container">
@@ -117,8 +118,6 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   </div>
   </div>
 
-
-
 <script language='javascript'>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -148,4 +147,39 @@ function showSlides(n) {
 }
 </script>
 </div>
+</div>
+
+<div class="row">
+  <section class="partner-sites">
+    <h2 class="partner-sites__hed">Oral History Partnerships</h2>
+    <div class="partner-sites__grid">
+      <a class="partner-site" href="#">
+        <div class="partner-site__img" style="background-image:url(/img/oregon-encyclopedia.jpg);"></div>
+        <div class="partner-site__text-holder">
+          <div class="partner-site__text">
+            <h3 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h3>
+            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+          </div>
+        </div>
+      </a>
+      <a class="partner-site" href="#">
+        <div class="partner-site__img" style="background-image:url(/img/tumblr-research-library-blog.jpg);"></div>
+        <div class="partner-site__text-holder">
+          <div class="partner-site__text">
+            <h3 class="partner-site__hed">U.S. District Court Historical Society</h3>
+            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+          </div>
+        </div>
+      </a>
+      <a class="partner-site" href="#">
+        <div class="partner-site__img" style="background-image:url(/img/from-our-collections.jpg);"></div>
+        <div class="partner-site__text-holder">
+          <div class="partner-site__text">
+            <h3 class="partner-site__hed">Pacific Northwest Labor Oral History Project</h3>
+            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
 </div>
