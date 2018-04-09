@@ -149,7 +149,7 @@ function showSlides(n) {
 </div>
 </div>
 
-<div class="container">
+<div class="row">
   <section class="partner-sites">
     <h2 class="partner-sites__hed">Oral History Partnerships</h2>
     <div class="partner-sites__grid">
