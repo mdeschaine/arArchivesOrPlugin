@@ -175,7 +175,7 @@ function showSlides(n) {
         <div class="partner-site__img" style="background-image:url(/img/from-our-collections.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
-            <h3 class="partner-site__hed">Pacific Northwest Labor Oral History Project</h3>
+            <h3 class="partner-site__hed">Oregon Labor Oral History Program</h3>
             <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
           </div>
         </div>
