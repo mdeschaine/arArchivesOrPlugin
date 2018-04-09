@@ -468,139 +468,121 @@ h3 {
 
 //partner-sites
 
-#partner-sites{
-  width:100%;
-  padding: 2.375em 2.875em 3.4375em;
-  padding-bottom:0;
-
-
-.partner-sites__hed{
-  font-size:2em;
+.partner-sites {
+  padding: 3em 3.5em 4.0625em;
 }
-
-.partner-sites__grid{
-  display: block;
-  padding: 2.375em 2.875em 3.4375em;
-  padding-bottom: 0 !important;
-  padding-top: 0 !important;
+.partner-sites__grid {
+  padding: 3em 3.5em 4.0625em;
 }
-
-.partner-sites__grid:before{
-  content: " ";
-  display: table;
+.partner-site+.partner-site+.partner-site {
+  border-right: 0;
 }
-.partner-sites__grid:after{
-  content: " ";
-  display: table;
-  clear: both;
-}
-
-#partner-site1 {
-  width: 33.3333333333%;
-  height: 0;
-  padding-bottom: 33.3333333333%;
-  float: left;
-  text-align: center;
-  position: relative;
-  color: #fff;
-  overflow: hidden;
-  border-right: 3px solid #fff;
-}
-#partner-site2 {
-  width: 33.3333333333%;
-  height: 0;
-  padding-bottom: 33.3333333333%;
-  float: left;
-  text-align: center;
-  position: relative;
-  color: #fff;
-  overflow: hidden;
-  border-right: 3px solid #fff;
-}
-#partner-site3 {
-  width: 33.3333333333%;
-  height: 0;
-  padding-bottom: 33.3333333333%;
-  float: left;
-  text-align: center;
-  position: relative;
-  color: #fff;
-  overflow: hidden;
-  border-right: 3px solid #fff;
-}
-.partner-site:last-child{
-    border-right: 0;
+.partner-site__img {
+  -ms-behavior: url(/js/backgroundsize.min.htc);
+  &:after {
+    background: transparent url(img/ohs-blue-60.png) repeat;
   }
-  .no-touch .partner-site:hover
-  .partner-site--more-link{
-        color: #f0d23f;
-        }
-
-  .no-touch .partner-site:hover
-  .partner-site__img {
-    -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
-    transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
 }
-
-.partner-site__img{
-  position: absolute;
-  top: 0;
-  right:0;
-  left: 0;
-  bottom: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  -webkit-transform: scale3d(1, 1, 1) rotate(0);
-  transform: scale3d(1, 1, 1) rotate(0);
-  -webkit-transition:all 200ms ease-in-out;
-  transition:all 200ms ease-in-out;
+.partner-site {
+  &:hover {
+    .partner-site--more-link {
+      color: #f0d23f;
+    }
+    .partner-site__img {
+      -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+      transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+    }
   }
-
-.partner-site__img:after{
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      background-color: rgba(35,44,50,0.8);
-      }
-
+}
+.partner-sites {
+	width: 100%;
+	padding: 2.375em 2.875em 3.4375em;
+	padding-bottom: 0;
+}
+.partner-sites__hed {
+	font-size: 2em;
+}
+.partner-sites__grid {
+	display: block;
+	padding: 2.375em 2.875em 3.4375em;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	&:before {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+.partner-site {
+	width: 33.3333333333%;
+	height: 0;
+	padding-bottom: 33.3333333333%;
+	float: left;
+	text-align: center;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+	border-right: 3px solid #fff;
+	&:last-child {
+		border-right: 0;
+	}
+}
+.partner-site__img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-transform: scale3d(1, 1, 1) rotate(0);
+	transform: scale3d(1, 1, 1) rotate(0);
+	-webkit-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgba(35,44,50,0.8);
+	}
+}
 .partner-site__text-holder {
-  position:absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	&:before {
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+		margin-right: -0.3em;
+	}
 }
-
-.partner-site__text-holder:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.3em;
-}
-
 .partner-site__text {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 1.25em;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1.25em;
 }
-
 .partner-site__hed {
-  position:relative;
-  margin:0;
-  font-size:1.5em;
+	position: relative;
+	margin: 0;
+	font-size: 1.5em;
 }
-
 .partner-site--more-link {
-  position:relative;
-  color:#0db7b8;
-  font-weight:bold;
-}
+	position: relative;
+	color: #0db7b8;
+	font-weight: bold;
 }
 
 // Responsive design
