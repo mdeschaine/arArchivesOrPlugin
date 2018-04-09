@@ -153,7 +153,7 @@ function showSlides(n) {
   <section class="partner-sites">
     <h2 class="partner-sites__hed">Oral History Partnerships</h2>
     <div class="partner-sites__grid">
-      <a class="partner-site" href="#">
+      <a class="partner-site1" href="#">
         <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
@@ -162,7 +162,7 @@ function showSlides(n) {
           </div>
         </div>
       </a>
-      <a class="partner-site" href="#">
+      <a class="partner-site2" href="#">
         <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/tumblr-research-library-blog.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
@@ -171,7 +171,7 @@ function showSlides(n) {
           </div>
         </div>
       </a>
-      <a class="partner-site" href="#">
+      <a class="partner-site3" href="#">
         <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/from-our-collections.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
