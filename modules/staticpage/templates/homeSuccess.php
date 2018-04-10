@@ -149,8 +149,10 @@ function showSlides(n) {
 </script>
 </div>
 </div>
+
 <!-- The grid: three columns -->
-<div class="row">
+<div class="container">
+<div id="partner-sites" class="row">
   <div class="column" onclick="openTab('b1');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 1</div>
   <div class="column" onclick="openTab('b2');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 2</div>
   <div class="column" onclick="openTab('b3');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 3</div>
@@ -175,7 +177,8 @@ function showSlides(n) {
   <h2>Box 3</h2>
   <p>Lorem ipsum..</p>
 </div>
-// Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+
+<!--Hide all elements with class="containerTab", except for the one that matches the clickable grid column-->
 <script language='javascript'>
 function openTab(tabName) {
     var i, x;
@@ -186,3 +189,5 @@ function openTab(tabName) {
     document.getElementById(tabName).style.display = "block";
 }
 </script>
+</div>
+</div>
