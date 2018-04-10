@@ -156,7 +156,7 @@ function showSlides(n) {
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
     <a href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
     <h3>Gay and Lesbian Archives of the Pacific Northwest</h3>
-      <div class="partner-site--more-link">More Information <?php echo __('More Information &#10095;') ?></div>
+      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
     </a>
   </div>
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
@@ -168,7 +168,7 @@ function showSlides(n) {
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
     <a href="/us-ohy-mss-114">
     <h3>Oregon Labor Oral History Program<h3>
-      <div class="partner-site--more-link">More Information <?php echo __('More Information &#10095;') ?></div>
+      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
     </a>
   </div>
 </div>
