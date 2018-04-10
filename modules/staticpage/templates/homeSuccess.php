@@ -186,38 +186,40 @@ function showSlides(n) {
       </a>
   </div>
 -->
-<div class="row">
-  <section class="partner-sites">
-    <h2 class="partner-sites__hed">Oral History Partnerships</h2>
-    <div class="partner-sites__grid">
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">The Oregon Encyclopedia</h3>
-            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+<div class="container">
+  <div class="row">
+    <section class="partner-sites">
+      <h2 class="partner-sites__hed">Oral History Partnerships</h2>
+      <div class="partner-sites__grid">
+        <a class="partner-site" href="#">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">The Oregon Encyclopedia</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
           </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">Tumblr Research Library Blog</h3>
-            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+        </a>
+        <a class="partner-site" href="#">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">Tumblr Research Library Blog</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
           </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">From Our Collections</h3>
-            <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+        </a>
+        <a class="partner-site" href="#">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">From Our Collections</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
           </div>
-        </div>
-      </a>
-    </div>
-  </section>
+        </a>
+      </div>
+    </section>
+  </div>
 </div>
 </div>
