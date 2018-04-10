@@ -154,16 +154,22 @@ function showSlides(n) {
 <div class="container">
 <div id="partner-sites" class="row">
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <h3 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h3>
-      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+    <a href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
+    <h3>Gay and Lesbian Archives of the Pacific Northwest</h3>
+      <div class="partner-site--more-link">More Information <?php echo __('More Information &#10095;') ?></div>
+    </a>
   </div>
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <h3 class="partner-site__hed">U.S. District Court Historical Society</h3>
-      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+    <a href="/united-states-district-court-oral-history-project">
+    <h3>U.S. District Court Historical Society</h3>
+      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
+    </a>
   </div>
   <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <h3 class="partner-site__hed">Oregon Labor Oral History Program<h3>
-      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+    <a href="/us-ohy-mss-114">
+    <h3>Oregon Labor Oral History Program<h3>
+      <div class="partner-site--more-link">More Information <?php echo __('More Information &#10095;') ?></div>
+    </a>
   </div>
 </div>
 
