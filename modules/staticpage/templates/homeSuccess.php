@@ -191,7 +191,7 @@ function showSlides(n) {
     <h2 class="partner-sites__hed">Explore More Oregon History</h2>
     <div class="partner-sites__grid">
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">The Oregon Encyclopedia</h3>
@@ -200,7 +200,7 @@ function showSlides(n) {
         </div>
       </a>
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/tumblr-research-library-blog.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">Tumblr Research Library Blog</h3>
@@ -209,7 +209,7 @@ function showSlides(n) {
         </div>
       </a>
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/from-our-collections.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">From Our Collections</h3>
