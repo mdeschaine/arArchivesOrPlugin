@@ -91,19 +91,19 @@
   }
 
   li {
-  
+
   	  float: none;
    	  position: relative;
-      
-	  
-    
+
+
+
 	.clearfix();
 	&:hover {
       background-color: rgb(48,71,89);
 	  color: rgb(3,181,181);
-	  
+
 	}
-	
+
 	a {
     font-size: 14px;
 //	font-family: @sansFontFamily;
@@ -126,8 +126,8 @@
 	  text-decoration: none;
     }
 	}
-	
-	
+
+
     img {
       margin-right: 10px;
       display: inline;
@@ -138,15 +138,15 @@
 
 }
 #intro {
-	
-	.pull-right(); 
+
+	.pull-right();
 	padding: 7% 0px 10px 10px;
-	
+
 	div {
 		display: block;
 		height: 500px;
 	}
-	
+
 	h3 {
 		color: @black;
 		background-color: rgb(247,206,60);
@@ -154,9 +154,9 @@
 		padding: 36px 48px 0px 48px;
 		font-size: 24px;
     	margin-top: 0px;
-		
+
 	}
-	
+
 	p {
 		color: @black;
 		background-color: rgb(247,206,60);
@@ -214,7 +214,7 @@
   }
 
   ul{
-  	margin: 0 0 0 1em;	
+  	margin: 0 0 0 1em;
   }
 }
 
@@ -246,7 +246,7 @@
     background-color: #000;
     background-color: rgba(0, 0, 0, .4);
   }
-  
+
   .title {
   display: block;
     font-size: 16px;
@@ -303,13 +303,13 @@
 
 // Slideshow
 
-#slideshow { 
+#slideshow {
   margin-top: 30px;
-  
+
   * {
     .box-sizing(border-box);
   }
-  
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -367,7 +367,7 @@ h3 {
     background-color: rgba(0, 0, 0, .6);
 	color: rgb(247,206,60);
   }
-  
+
   .title {
   display: block;
     font-size: 16px;
@@ -379,16 +379,16 @@ h3 {
 	  text-decoration: underline;
     }
   }
-  
+
   .small {
     display: block;
     font-size: 14px;
     line-height: 16px;
     color: lighten(@grayLight, 10%);
   }
-  
 
-  
+
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -416,7 +416,7 @@ h3 {
   background-color: rgb(48,71,89);
   color: rgb(3,181,181);
   /* DON'T underline */
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 /* The dots/bullets/indicators */
@@ -455,14 +455,45 @@ h3 {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
+}
+// Boxes
+/* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 // NewestAdditions
@@ -474,13 +505,13 @@ h3 {
   background-color: rgb(0,45,70);
 
   h2 {
-    
+
 	color: @white;
 	padding: 8px 8px 8px 8px;
     margin: 0;
 	font-weight: bold;
     background-color: rgb(0,45,70);
-	
+
   }
 
   ul {
@@ -573,25 +604,25 @@ h3 {
   #intro {
     .hide();
   }
-  
+
   #cta {
   	margin-top: 30px;
   	// padding: 3.5em 20% 1em;
   	h1 {
 	  font-size: 2.75em
   	}
-  }	
-  
+  }
+
   #context-menu a {
   	border: none;
   }
-  
+
   button.clipboard-wide {
     font-size: 18px;
 	padding: 5px 7px 4px 24px;
   }
-  
-  
+
+
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
@@ -623,17 +654,17 @@ h3 {
     // background-color: rgba(0, 0, 0, .25);
 	// width: 40%;
   }
-  
+
   #welcome-message__inner {
     width: 80%;
     padding-left: 35%;
     padding-right: 2.38095238%;
-  } 
-  
+  }
+
   #homepage-hero h1 {
     font-size: 45px;
   }
-  
+
 }
 
 @media (max-width: 979px) and (min-width: 768px) {
@@ -641,7 +672,7 @@ h3 {
   .span4 {
 	width: 268px;
   }
-  
+
   .span7 {
     width: 416px;
   }
@@ -649,7 +680,7 @@ h3 {
   .span8 {
     width: 436px;
   }
-  
+
   #cta h1 {
   	font-size: 2.75em
   }
@@ -664,12 +695,12 @@ h3 {
 	background-color: #d7dfdf;
     padding: 3.5em 15% 1em;
 	// margin-left: 20px;
-	
+
 	h1 {
 		margin-bottom: 0;
     	margin-top: -0.17em;
     	// font-size: 3em;
-    	line-height: 1.1;	
+    	line-height: 1.1;
 	}
 }
 

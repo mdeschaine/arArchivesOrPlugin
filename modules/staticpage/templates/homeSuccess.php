@@ -149,38 +149,40 @@ function showSlides(n) {
 </script>
 </div>
 </div>
-
+<!-- The grid: three columns -->
 <div class="row">
-  <section class="partner-sites">
-    <h2 class="partner-sites__hed">Explore More Oregon History</h2>
-    <div class="partner-sites__grid">
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/img/oregon-encyclopedia.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">The Oregon Encyclopedia</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/img/tumblr-research-library-blog.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">Tumblr Research Library Blog</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/img/from-our-collections.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">From Our Collections</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </section>
+  <div class="column" onclick="openTab('b1');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 1</div>
+  <div class="column" onclick="openTab('b2');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 2</div>
+  <div class="column" onclick="openTab('b3');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 3</div>
 </div>
+
+<!-- The expanding grid (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <!-- If you want the ability to close the container, add a close button -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Box 1</h2>
+  <p>Lorem ipsum..</p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Box 2</h2>
+  <p>Lorem ipsum..</p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:red">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Box 3</h2>
+  <p>Lorem ipsum..</p>
+</div>
+// Hide all elements with class="containerTab", except for the one that matches the clickable grid column
+<script language='javascript'>
+function openTab(tabName) {
+    var i, x;
+    x = document.getElementsByClassName("containerTab");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+}
+</script>
