@@ -153,41 +153,9 @@ function showSlides(n) {
 <!-- The grid: three columns -->
 <div class="container">
 <div id="partner-sites" class="row">
-  <div class="column" onclick="openTab('b1');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Gay and Lesbian Archives of the Pacific Northwest</div>
-  <div class="column" onclick="openTab('b2');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">U.S. District Court Historical Society</div>
-  <div class="column" onclick="openTab('b3');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Oregon Labor Oral History Program</div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Gay and Lesbian Archives of the Pacific Northwest</div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">U.S. District Court Historical Society</div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Oregon Labor Oral History Program</div>
 </div>
 
-<!-- The expanding grid (hidden by default) -->
-<div id="b1" class="containerTab" style="display:none;background:green">
-  <!-- If you want the ability to close the container, add a close button -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-  <h2>Box 1</h2>
-  <p>Lorem ipsum..</p>
-</div>
-
-<div id="b2" class="containerTab" style="display:none;background:blue">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-  <h2>Box 2</h2>
-  <p>Lorem ipsum..</p>
-</div>
-
-<div id="b3" class="containerTab" style="display:none;background:red">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-  <h2>Box 3</h2>
-  <p>Lorem ipsum..</p>
-</div>
-
-<!--Hide all elements with class="containerTab", except for the one that matches the clickable grid column-->
-<script language='javascript'>
-function openTab(tabName) {
-    var i, x;
-    x = document.getElementsByClassName("containerTab");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-    }
-    document.getElementById(tabName).style.display = "block";
-}
-</script>
-</div>
 </div>
