@@ -153,9 +153,9 @@ function showSlides(n) {
 <!-- The grid: three columns -->
 <div class="container">
 <div id="partner-sites" class="row">
-  <div class="column" onclick="openTab('b1');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 1</div>
-  <div class="column" onclick="openTab('b2');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 2</div>
-  <div class="column" onclick="openTab('b3');" style="background-image:url("/plugins/arArchivesOrPlugin/images/slide1.jpg");">Box 3</div>
+  <div class="column" onclick="openTab('b1');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Box 1</div>
+  <div class="column" onclick="openTab('b2');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Box 2</div>
+  <div class="column" onclick="openTab('b3');" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Box 3</div>
 </div>
 
 <!-- The expanding grid (hidden by default) -->
