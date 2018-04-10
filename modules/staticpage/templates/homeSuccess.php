@@ -152,25 +152,38 @@ function showSlides(n) {
 
 <!-- The grid: three columns -->
 <div class="container">
-<div id="partner-sites" class="row">
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <a href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-    <h3>Gay and Lesbian Archives of the Pacific Northwest</h3>
-      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
-    </a>
+  <h2 class="partner-sites__hed">Oral History Partners</h2>
+    <div id="partner-sites" class="row">
+      <a href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
+        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
+          <div class="partner-site__text-holder">
+						<div class="partner-site__text">
+              <h3>Gay and Lesbian Archives of the Pacific Northwest</h3>
+              <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
+            </div>
+          </div>
+        </div>    
+      </a>
+      <a href="/united-states-district-court-oral-history-project">
+        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide3.jpg);">
+          <div class="partner-site__text-holder">
+						<div class="partner-site__text">
+              <h3>U.S. District Court Historical Society</h3>
+              <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="/us-ohy-mss-114">
+        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);">
+          <div class="partner-site__text-holder">
+						<div class="partner-site__text">
+              <h3>Oregon Labor Oral History Program<h3>
+                <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
+            </div>
+          </div>
+        </div>
+      </a>
   </div>
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <a href="/united-states-district-court-oral-history-project">
-    <h3>U.S. District Court Historical Society</h3>
-      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
-    </a>
-  </div>
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-    <a href="/us-ohy-mss-114">
-    <h3>Oregon Labor Oral History Program<h3>
-      <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
-    </a>
-  </div>
-</div>
 
 </div>

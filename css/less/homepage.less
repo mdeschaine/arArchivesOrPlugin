@@ -466,7 +466,7 @@ h3 {
 }
 // Boxes
 /* The grid: Three equal columns that floats next to each other */
-.partner-sites__hed{
+#partner-sites__hed {
   margin-top: 30px;
 }
 #partner-sites {
@@ -501,7 +501,26 @@ h3 {
       border-right: 0;
     }
 }
+.partner-site__text-holder{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  &::before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 2px;
+  }
+}
 
+.partner-site__text{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1.25em
+}
 .partner-site__hed{
   position: relative;
   margin: 0;
