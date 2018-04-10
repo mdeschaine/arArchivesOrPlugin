@@ -153,9 +153,18 @@ function showSlides(n) {
 <!-- The grid: three columns -->
 <div class="container">
 <div id="partner-sites" class="row">
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Gay and Lesbian Archives of the Pacific Northwest</div>
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">U.S. District Court Historical Society</div>
-  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">Oregon Labor Oral History Program</div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
+    <h3 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h3>
+      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+  </div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
+    <h3 class="partner-site__hed">U.S. District Court Historical Society</h3>
+      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+  </div>
+  <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
+    <h3 class="partner-site__hed">Oregon Labor Oral History Program<h3>
+      <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
+  </div>
 </div>
 
 </div>
