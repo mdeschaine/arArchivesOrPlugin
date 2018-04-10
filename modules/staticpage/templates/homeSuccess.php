@@ -168,7 +168,7 @@ function showSlides(n) {
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide3.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed">U.S. District Court Historical Society</h1>
+              <h1 class="partner-site__hed">U.S. District Court<br>Historical Society</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
