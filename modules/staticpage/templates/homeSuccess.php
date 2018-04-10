@@ -191,7 +191,7 @@ function showSlides(n) {
     <div class="partner-sites">
       <h2 class="partner-sites__hed">Oral History Partnerships</h2>
       <div class="partner-sites__grid">
-        <a class="partner-site" href="#">
+        <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
@@ -200,7 +200,7 @@ function showSlides(n) {
             </div>
           </div>
         </a>
-        <a class="partner-site" href="#">
+        <a class="partner-site" href="/united-states-district-court-oral-history-project">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
@@ -209,7 +209,7 @@ function showSlides(n) {
             </div>
           </div>
         </a>
-        <a class="partner-site" href="#">
+        <a class="partner-site" href="/us-ohy-mss-114">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
