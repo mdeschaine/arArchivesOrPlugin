@@ -153,7 +153,7 @@ function showSlides(n) {
 <div class="container">
   <div id="partner-block" class="row">
     <div class="partner-sites">
-      <h2 class="partner-sites__hed">Oral History Partnerships</h2>
+      <h2 class="partner-sites__hed">Other Partners</h2>
       <div class="partner-sites__grid">
         <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);"></div>
