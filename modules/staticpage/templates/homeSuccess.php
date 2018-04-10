@@ -186,12 +186,12 @@ function showSlides(n) {
       </a>
   </div>
 -->
-<div class="container">
+<div class="row">
   <div class="partner-sites">
     <h2 class="partner-sites__hed">Oral History Partnerships</h2>
     <div class="partner-sites__grid">
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">The Oregon Encyclopedia</h3>
@@ -200,7 +200,7 @@ function showSlides(n) {
         </div>
       </a>
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">Tumblr Research Library Blog</h3>
@@ -209,7 +209,7 @@ function showSlides(n) {
         </div>
       </a>
       <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
         <div class="partner-site__text-holder">
           <div class="partner-site__text">
             <h3 class="partner-site__hed">From Our Collections</h3>
