@@ -150,49 +150,13 @@ function showSlides(n) {
 </div>
 </div>
 
-<!-- The grid: three columns
-<div class="container">
-  <h2 class="partner-sites__hed">Oral History Partners</h2>
-    <div id="partner-sites" class="row">
-      <a href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);">
-          <div class="partner-site__text-holder">
-						<div class="partner-site__text">
-              <h3>Gay and Lesbian Archives of the Pacific Northwest</h3>
-              <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="/united-states-district-court-oral-history-project">
-        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide3.jpg);">
-          <div class="partner-site__text-holder">
-						<div class="partner-site__text">
-              <h3>U.S. District Court Historical Society</h3>
-              <div class="partner-site--more-link"><?php echo __('More Information &#10095;') ?></div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="/us-ohy-mss-114">
-        <div class="column" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);">
-          <div class="partner-site__text-holder">
-						<div class="partner-site__text">
-              <h3>Oregon Labor Oral History Program<h3>
-                <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-            </div>
-          </div>
-        </div>
-      </a>
-  </div>
--->
 <div class="container">
   <div id="partner-block" class="row">
     <div class="partner-sites">
       <h2 class="partner-sites__hed">Oral History Partnerships</h2>
       <div class="partner-sites__grid">
         <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h1>
@@ -201,7 +165,7 @@ function showSlides(n) {
           </div>
         </a>
         <a class="partner-site" href="/united-states-district-court-oral-history-project">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide3.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">U.S. District Court Historical Society</h1>
