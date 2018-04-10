@@ -195,7 +195,7 @@ function showSlides(n) {
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed">The Oregon Encyclopedia</h1>
+              <h1 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
@@ -204,7 +204,7 @@ function showSlides(n) {
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed">Tumblr Research Library Blog</h1>
+              <h1 class="partner-site__hed">U.S. District Court Historical Society</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
@@ -213,7 +213,7 @@ function showSlides(n) {
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed">From Our Collections</h1>
+              <h1 class="partner-site__hed">Oregon Labor Oral History Program</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
