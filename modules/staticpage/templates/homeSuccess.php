@@ -1,4 +1,4 @@
-<main class="main-content">
+</div>
 <div id="homepage-hero" class="row" title="View of Gresham and Mt. Hood from Mt. Tabor, Portland - ca.1905.
 Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <div class="container">
@@ -222,4 +222,4 @@ function showSlides(n) {
     </section>
   </div>
 </div>
-</main>
+</div>
