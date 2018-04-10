@@ -159,7 +159,7 @@ function showSlides(n) {
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h1>
+              <h1 class="partner-site__hed">Gay and Lesbian Archives<br>of the Pacific Northwest</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
