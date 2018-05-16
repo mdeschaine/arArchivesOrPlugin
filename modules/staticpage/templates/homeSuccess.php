@@ -156,7 +156,7 @@ function showSlides(n) {
       <h2 class="partner-sites__hed">Content Partners</h2>
       <div class="partner-sites__grid">
         <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide1.jpg);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">Gay and Lesbian Archives<br>of the Pacific Northwest</h1>
@@ -165,7 +165,7 @@ function showSlides(n) {
           </div>
         </a>
         <a class="partner-site" href="/united-states-district-court-oral-history-project">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide3.jpg);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box2.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">U.S. District Court of Oregon<br>Historical Society</h1>
@@ -174,7 +174,7 @@ function showSlides(n) {
           </div>
         </a>
         <a class="partner-site" href="/us-ohy-mss-114">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/slide4.jpg);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
