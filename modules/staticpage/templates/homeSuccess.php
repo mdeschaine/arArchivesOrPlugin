@@ -149,7 +149,6 @@ function showSlides(n) {
 </div>
 </div>
 
-<<<<<<< HEAD
 <div class="row">
   <section class="partner-sites">
     <h2 class="partner-sites__hed">Oral History Partnerships</h2>
@@ -183,42 +182,4 @@ function showSlides(n) {
       </a>
     </div>
   </section>
-=======
-<div class="container">
-  <div id="partner-block" class="row">
-    <div class="partner-sites">
-      <h2 class="partner-sites__hed">Content Partners</h2>
-      <div class="partner-sites__grid">
-        <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.jpg);"></div>
-          <div class="partner-site__text-holder">
-            <div class="partner-site__text">
-              <h1 class="partner-site__hed">Gay and Lesbian Archives<br>of the Pacific Northwest</h1>
-              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-            </div>
-          </div>
-        </a>
-        <a class="partner-site" href="/united-states-district-court-oral-history-project">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box2.jpg);"></div>
-          <div class="partner-site__text-holder">
-            <div class="partner-site__text">
-              <h1 class="partner-site__hed">U.S. District Court of Oregon<br>Historical Society</h1>
-              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-            </div>
-          </div>
-        </a>
-        <a class="partner-site" href="/us-ohy-mss-114">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
-          <div class="partner-site__text-holder">
-            <div class="partner-site__text">
-              <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
-              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
->>>>>>> e878f73447efe1dc03e2eba5a4f6bff698957802
 </div>
