@@ -149,41 +149,6 @@ function showSlides(n) {
 </div>
 </div>
 
-<<<<<<< HEAD
-<div class="row">
-  <section class="partner-sites">
-    <h2 class="partner-sites__hed">Oral History Partnerships</h2>
-    <div class="partner-sites__grid">
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/oregon-encyclopedia.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">Gay and Lesbian Archives of the Pacific Northwest</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/tumblr-research-library-blog.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">U.S. District Court Historical Society</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-      <a class="partner-site" href="#">
-        <div class="partner-site__img" style="background-image:url(http://www.ohs.org/img/from-our-collections.jpg);"></div>
-        <div class="partner-site__text-holder">
-          <div class="partner-site__text">
-            <h3 class="partner-site__hed">Oregon Labor Oral History Program</h3>
-            <div class="partner-site--more-link">More Information <?php chevron('right'); ?></div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </section>
-=======
 <div class="container">
   <div id="partner-block" class="row">
     <div class="partner-sites">
@@ -220,5 +185,5 @@ function showSlides(n) {
     </div>
   </div>
 </div>
->>>>>>> e878f73447efe1dc03e2eba5a4f6bff698957802
+
 </div>
