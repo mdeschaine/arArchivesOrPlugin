@@ -63,7 +63,6 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	  </div>
 </div>
 </div>
-
 <div class="container">
 <div id="slideshow">
   <div class="slideshow-container">
@@ -117,6 +116,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <span class="dot" onclick="currentSlide(4)"></span>
   </div>
   </div>
+
+
 
 <script language='javascript'>
 var slideIndex = 1;
@@ -185,5 +186,4 @@ function showSlides(n) {
     </div>
   </div>
 </div>
-
 </div>
