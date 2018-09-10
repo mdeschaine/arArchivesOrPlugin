@@ -67,7 +67,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div id="slideshow">
   <div class="slideshow-container">
 
-  <div id="slide1"class="mySlides">
+  <div id="slide1" class="mySlides">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -96,7 +96,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide4"class="mySlides">
+  <div id="slide4" class="mySlides">
     <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -104,6 +104,16 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 		<div class="small">Treaty, Walla Walla and Wasco Tribes, 1855 June 25</div>
 		</h3>
 	</a>
+  </div>
+
+  <div id="slide5" class="mySlides">
+    <a href="/org-lot-151-portland-general-electric-photograph-collection">
+    <h3>
+    <?php echo __('Featured Collection') ?>
+    <div class="title">Portland General Electric Photograph Collection</div>
+    <div class="small">Oregon City, Station B</div>
+    </h3>
+  </a>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -114,6 +124,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
   </div>
   </div>
 
