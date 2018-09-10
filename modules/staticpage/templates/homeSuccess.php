@@ -71,8 +71,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Oregon Journal Photographic Negatives - Transportation and Infrastructure - Aviation</div>
-		<div class="small">Wing walker on biplane</div>
+    <div class="title">Oregon Journal Photographic Negatives - Politics and Government</div>
+    <div class="small">President Woodrow Wilson in car during procession through Portland</div>
 		</h3>
 	</a>
   </div>

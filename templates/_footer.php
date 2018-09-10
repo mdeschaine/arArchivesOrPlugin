@@ -19,6 +19,7 @@
 	<li><?php echo link_to(__('Copyright'), array('module' => 'staticpage', 'slug' => 'copyright-2')) ?></li>
 	<li><?php echo link_to(__('Terms of Service'), array('module' => 'staticpage', 'slug' => 'terms')) ?></li>
 	<li><?php echo link_to(__('Contact Us'), array('module' => 'staticpage', 'slug' => 'contact')) ?></li>
+	<li><?php echo link_to(__('Search Help'), array('module' => 'staticpage', 'slug' => 'help-search')) ?></li>
 </ul>
 </div>
 <div class="foot-hours">
