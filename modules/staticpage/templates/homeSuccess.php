@@ -184,7 +184,7 @@ function showSlides(n) {
             </div>
           </div>
         </a>
-        <a class="partner-site" href="/us-ohy-mss-114">
+        <a class="partner-site" href="/oregon-labor-oral-history-program">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
