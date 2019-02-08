@@ -67,12 +67,12 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div id="slideshow">
   <div class="slideshow-container">
 
-  <div id="slide1"class="mySlides">
+  <div id="slide1" class="mySlides">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Oregon Journal Photographic Negatives - Transportation and Infrastructure - Aviation</div>
-		<div class="small">Wing walker on biplane</div>
+    <div class="title">Oregon Journal Photographic Negatives - Politics and Government</div>
+    <div class="small">President Woodrow Wilson in car during procession through Portland</div>
 		</h3>
 	</a>
   </div>
@@ -96,7 +96,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide4"class="mySlides">
+  <div id="slide4" class="mySlides">
     <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -104,6 +104,16 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 		<div class="small">Treaty, Walla Walla and Wasco Tribes, 1855 June 25</div>
 		</h3>
 	</a>
+  </div>
+
+  <div id="slide5" class="mySlides">
+    <a href="/org-lot-151-portland-general-electric-photograph-collection">
+    <h3>
+    <?php echo __('Featured Collection') ?>
+    <div class="title">Portland General Electric Photograph Collection</div>
+    <div class="small">Oregon City, Station B</div>
+    </h3>
+  </a>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -114,6 +124,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
   <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
   </div>
   </div>
 
@@ -147,5 +158,43 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+</div>
+</div>
+
+<div class="container">
+  <div id="partner-block" class="row">
+    <div class="partner-sites">
+      <h2 class="partner-sites__hed">Content Partners</h2>
+      <div class="partner-sites__grid">
+        <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">Gay and Lesbian Archives<br>of the Pacific Northwest</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
+          </div>
+        </a>
+        <a class="partner-site" href="/united-states-district-court-oral-history-project">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box2.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">U.S. District Court of Oregon<br>Historical Society</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
+          </div>
+        </a>
+        <a class="partner-site" href="/oregon-labor-oral-history-program">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 </div>

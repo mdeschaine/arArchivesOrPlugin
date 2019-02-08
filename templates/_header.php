@@ -35,7 +35,7 @@
 		</defs>
 	</svg>
 	<!--<![endif]-->
-	
+
 	<!-- global nav -->
     <div class="global-nav__holder">
         <div class="global-nav__row">
@@ -44,7 +44,7 @@
                 <p class="global-nav__intro">Explore The Oregon Historical Society Family of Websites</p>
                 <ul class="global-nav__list">
                     <li class="global-nav__item"><a href="http://www.ohs.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon Historical</span> Society <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/mockup-nav-1.png" alt></div></a></li>
-                    <li class="global-nav__item"><a href="http://librarycatalog.ohs.org/EOSWebOPAC/" class="global-nav__link" target="_blank"><span class="global-nav__break">Library Online</span> Catalog <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/mockup-nav-2.png" alt></div></a></li>
+                    <li class="global-nav__item"><a href="http://librarycatalog.ohs.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Library Online</span> Catalog <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/mockup-nav-2.png" alt></div></a></li>
                     <li class="global-nav__item current"><a href="#" class="global-nav__link"><span class="global-nav__break">OHS Digital</span> Collections <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/ohs-digital-collections-thumb.png" alt></div></a></li>
                     <li class="global-nav__item"><a href="http://www.oregonhistoryproject.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon History</span> Project <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/mockup-nav-3.png" alt></div></a></li>
                     <li class="global-nav__item"><a href="http://www.oregonencyclopedia.org/" class="global-nav__link" target="_blank"><span class="global-nav__break">Oregon</span> Encyclopedia <div class="global-nav__link-img"><img src="/plugins/arArchivesOrPlugin/images/OrHi_78867_Vanport_School.jpg" alt></div></a></li>
@@ -55,7 +55,7 @@
     </div>
 	<!-- / global nav -->
     
-    
+
 <!-- END GLOBAL NAV STANDALONE -->
 
 <div id="header">

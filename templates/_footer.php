@@ -19,6 +19,7 @@
 	<li><?php echo link_to(__('Copyright'), array('module' => 'staticpage', 'slug' => 'copyright-2')) ?></li>
 	<li><?php echo link_to(__('Terms of Service'), array('module' => 'staticpage', 'slug' => 'terms')) ?></li>
 	<li><?php echo link_to(__('Contact Us'), array('module' => 'staticpage', 'slug' => 'contact')) ?></li>
+	<li><?php echo link_to(__('Search Help'), array('module' => 'staticpage', 'slug' => 'help-search')) ?></li>
 </ul>
 </div>
 <div class="foot-hours">
@@ -71,14 +72,5 @@
 <p class="foot__legal"><a class="foot-footer__link" href="http://www.ohs.org/contact.cfm" target="_blank">Contact OHS</a> <a class="foot-footer__link" href="http://www.ohs.org/privacy-policy.cfm" target="_blank">Privacy Policy</a> </p>
 <p class="foot__copyright">© Copyright 2017 Oregon Historical Society</p>
 </div>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
- 
-  ga('create', 'UA-65747041-2', 'auto');
-  ga('send', 'pageview');
- 
-</script>
+
 </footer>
