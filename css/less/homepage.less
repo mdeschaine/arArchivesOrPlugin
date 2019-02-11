@@ -219,10 +219,9 @@
 }
 
 #module{
-  position: relative;
+    position: relative;
     float: left;
-    min-height: 275px;
-    max-height: 100%;
+    height: 321px;
     background-color: #fff;
     vertical-align: top;
     -webkit-transition: all 200ms ease-in-out;
@@ -231,7 +230,7 @@
     transform: translateZ(0);
   }
 
-#mod-img-holder{
+#module-img-holder{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -240,7 +239,7 @@
 
 }
 
-#new_added {
+#module__img {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -254,11 +253,10 @@
     background-position: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  .new_added-scrim .new_added {
-      background-blend-mode: multiply;
-      background-color: #0db7b8;
+    .module--img-scrim .module__img {
+        background-blend-mode: multiply;
+        background-color: #0db7b8;
     }
-
 }
 #mod--over-img {
     display: inline-block;
