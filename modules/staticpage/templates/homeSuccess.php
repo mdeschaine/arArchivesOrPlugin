@@ -41,7 +41,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div class="container">
 <div id="homepage" class="row">
 
-  <div class="span8">
+  <div class="span7">
     <section id="new_added">
         <h1 class="module__hed"><a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" target="_blank">See What's New</a></h1>
         <a class="more-link--large" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" target="_blank"><!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'><use xlink:href='#icon-chevron-right'></use></svg><!--<![endif]--></a>
