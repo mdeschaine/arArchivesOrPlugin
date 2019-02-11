@@ -43,7 +43,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
     <div class="module">
         <a class="mod mod-over-image" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
           <div class="module-img-holder" style="background-image:url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);"></div>
-        </a>
+        See What's New</a>
     </div>
     <div class="span8" id="virtual-exhibit">
       <a href="/reuniting-finley-and-bohlman">
