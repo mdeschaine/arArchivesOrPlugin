@@ -40,21 +40,22 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 </div>
 <div class="container">
   <div id="homepage" class="row">
-    <div class="span7" id="module">
-      <div class="module-img-holder" alt="Jesse Stahl on Grave Digger (Horse), c. 1916" title="Jesse Stahl on Grave Digger (Horse), 1916">
-        <a class="mod mod-over-image" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">See What's New</a>
-      </div>
+    <div class="module">
+        <a class="mod mod-over-image" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
+          <div class="module-img-holder" style="background-image:url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);"></div>
+          </div>
+        </a>
     </div>
-  <div class="span8" id="virtual-exhibit">
-    <a href="/reuniting-finley-and-bohlman">
-      <h3>
-        <?php echo __('Partnership') ?>
-        <span class="title">Reuniting Finley and Bohlman</span>
-        <span class="small">Oregon Historical Society and Oregon State University</span>
-      </h3>
-      <div>&nbsp;</div>
-    </a>
-  </div>
+    <div class="span8" id="virtual-exhibit">
+      <a href="/reuniting-finley-and-bohlman">
+        <h3>
+          <?php echo __('Partnership') ?>
+          <span class="title">Reuniting Finley and Bohlman</span>
+          <span class="small">Oregon Historical Society and Oregon State University</span>
+        </h3>
+        <div>&nbsp;</div>
+      </a>
+    </div>
     <div class="span4">
   	    <section id="cta">
             <h1 class="module__hed"><a href="http://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
