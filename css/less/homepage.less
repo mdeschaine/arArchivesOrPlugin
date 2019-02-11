@@ -222,18 +222,10 @@
     position: relative;
 
     div {
-    background-image: url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
     display: block;
     height: 321px;
     vertical-align: top;
-    -webkit-transform: scale3d(1, 1, 1) rotate(0);
-    transform: scale3d(1, 1, 1) rotate(0);
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
-    background-position: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     background-blend-mode: multiply;
@@ -241,6 +233,30 @@
     cursor: pointer;
     overflow: hidden;
   }
+}
+.mod-img-holder{
+  position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-transform: scale3d(1, 1, 1) rotate(0);
+    transform: scale3d(1, 1, 1) rotate(0);
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(35,44,50,0.6);
+    }
 }
 
 .mod-over-img {
