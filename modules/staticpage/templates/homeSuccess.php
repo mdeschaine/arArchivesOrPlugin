@@ -42,7 +42,6 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <div id="homepage" class="row">
     <div class="span7" id="module">
       <div class="module-img-holder" alt="Jesse Stahl on Grave Digger (Horse), c. 1916" title="Jesse Stahl on Grave Digger (Horse), 1916">
-        <div class="module__img" style="background-image:url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);"></div>
         <a class="mod mod-over-image" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">See What's New</a>
       </div>
     </div>
