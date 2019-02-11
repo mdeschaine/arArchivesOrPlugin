@@ -39,13 +39,11 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 </div>
 </div>
 <div class="container">
-<div id="homepage" class="row">
-
-  <div class="span7">
-    <section id="new_added">
-        <h1 class="module__hed"><a href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" target="_blank">See What's New</a></h1>
-        <a class="more-link--large" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0" target="_blank"><!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'><use xlink:href='#icon-chevron-right'></use></svg><!--<![endif]--></a>
-    </section>
+  <div id="homepage" class="row">
+    <div class="mod-img-holder" alt="Jesse Stahl on Grave Digger (Horse), c. 1916" title="Jesse Stahl on Grave Digger (Horse), 1916">
+      <div class="new_added" style="background-image:url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);"></div>
+      <a class="cta cta-over-image" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">See What's New</a>
+    </div>
   </div>
   <div class="span8" id="virtual-exhibit">
     <a href="/reuniting-finley-and-bohlman">
@@ -62,9 +60,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
             <h1 class="module__hed"><a href="http://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
             <a class="more-link--large" href="http://ohs.org/research-and-library/" target="_blank"><!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'><use xlink:href='#icon-chevron-right'></use></svg><!--<![endif]--></a>
         </section>
-
 	  </div>
-</div>
+  </div>
 </div>
 <div class="container">
 <div id="slideshow">
