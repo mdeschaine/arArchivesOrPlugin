@@ -275,9 +275,22 @@
       border: 2px solid;
       border-radius: 5px;
       text-decoration: none;
-      -webkit-transition: color 200ms ease-in-out,background-color 200ms ease-in-out,-webkit-transform 100ms ease-in-out;
-      transition: color 200ms ease-in-out,background-color 200ms ease-in-out,transform 100ms ease-in-out;
 }
+.module {
+        &:hover {
+            .mod {
+                background-color: #fff !important;
+                color: #0db7b8 !important;
+            }
+            .mod-over-img{
+
+            }
+            .module-img-holder {
+                -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+                transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+            }
+        }
+    }
 // Virtual exhibits
 #virtual-exhibit {
 
