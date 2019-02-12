@@ -247,7 +247,7 @@
     bottom: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 0 40%;
     background-blend-mode: multiply;
     background-color: #0db7b8;
     -webkit-transform: scale3d(1, 1, 1) rotate(0);
@@ -281,15 +281,20 @@
     color: #fff;
     border-color: #fff;
     position: relative;
+    top: 40%;
 
   }
-
+.mod-img {
+  &:hover {
+        -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+        transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
+  }
+}
 .mod-link {
         &:hover {
             .mod{
               background-color: #fff !important;
               color: #0db7b8 !important;
-              border-color: #0db7b8 !important;
             }
             .mod-over-img {
                 -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
