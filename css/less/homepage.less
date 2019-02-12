@@ -229,29 +229,15 @@
 
 .mod-link{
     float: left;
+    margin-left: 30px;
+    height:100%;
+    width: 100%;
     text-align: center;
     position: relative;
     cursor: pointer;
     overflow: hidden;
     color: #fff;
 }
-.mod{
-  font-size: 1.25em;
-  display: inline-block;
-  z-index: 1;
-  padding: 0.9375em 1.25em;
-  border: 2px solid;
-  border-radius: 5px;
-  text-decoration: none;
-}
-.mod-over-img {
-    display: inline-block;
-    vertical-align: middle;
-    color: #fff;
-    border-color: #fff;
-    position: relative;
-
-  }
 
 .mod-img {
     position: absolute;
@@ -279,11 +265,31 @@
         background-color: rgba(35,44,50,0.6);
       }
     }
+
+.mod{
+  font-size: 1.25em;
+  display: inline-block;
+  z-index: 1;
+  padding: 0.9375em 1.25em;
+  border: 2px solid;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.mod-over-img {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    border-color: #fff;
+    position: relative;
+
+  }
+
 .mod-link {
         &:hover {
             .mod{
               background-color: #fff !important;
               color: #0db7b8 !important;
+              border-color: #0db7b8 !important;
             }
             .mod-over-img {
                 -webkit-transform: scale3d(1.1, 1.1, 1) rotate(0.02deg);
