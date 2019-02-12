@@ -40,7 +40,11 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 </div>
 <div class="container">
   <div id="homepage" class="row">
+<<<<<<< HEAD
     <div class="span7" id="mod-new">
+=======
+    <div class="mod-new">
+>>>>>>> parent of 4be693a... span is back
         <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
           <div class="mod-img" style="background-image:url(https://digitalcollections.ohs.org/uploads/r/oregon-historical-society-library/4/1/4/414cd89519573b39125f2ab8e908113f7cc8955940f3709becb3f9aeee135eda/ad13787c-759d-41f3-b94f-b7803a294f1c-OrgLot369_FinleyA1759.jpg);"></div>
         <div class="mod mod-over-img">See What's New</div>
