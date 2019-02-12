@@ -40,7 +40,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 </div>
 <div class="container">
   <div id="homepage" class="row">
-    <div class="span 7" id="mod-new">
+    <div class="mod-new">
         <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
           <div class="mod-img" style="background-image:url(https://ohs.org/education/images/jesse-stahl-on-grave-digger-bc006600.jpg);"></div>
         <div class="mod mod-over-img">See What's New</div>
