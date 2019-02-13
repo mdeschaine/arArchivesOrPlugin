@@ -43,7 +43,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 
     <div class="mod-new">
         <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
-          <div class="mod-img" style="background-image:url("/plugins/arArchivesOrPlugin/image/new-box.jpg");"></div>
+          <div class="mod-img" style="background-image:url(/plugins/arArchivesOrPlugin/images/new-box.jpg);"></div>
         <div class="mod mod-over-img">See What's New</div>
       </a>
     </div>
