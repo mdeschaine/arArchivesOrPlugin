@@ -39,29 +39,31 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 </div>
 </div>
 <div class="container">
-<div id="homepage" class="row">
+  <div id="homepage" class="row">
 
-  <div class="span7">
-    <?php echo get_component('default', 'popular', array('limit' => 10, 'sf_cache_key' => $sf_user->getCulture())) ?>
-  </div>
-  <div class="span8" id="virtual-exhibit">
-    <a href="/reuniting-finley-and-bohlman">
-      <h3>
-        <?php echo __('Partnership') ?>
-        <span class="title">Reuniting Finley and Bohlman</span>
-        <span class="small">Oregon Historical Society and Oregon State University</span>
-      </h3>
-      <div>&nbsp;</div>
-    </a>
-  </div>
+    <div class="mod-new">
+        <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
+          <div class="mod-img" style="background-image:url(/plugins/arArchivesOrPlugin/images/new-box.jpg);"></div>
+        <div class="mod mod-over-img">See What's New</div>
+      </a>
+    </div>
+    <div class="span8" id="virtual-exhibit">
+      <a href="/reuniting-finley-and-bohlman">
+        <h3>
+          <?php echo __('Partnership') ?>
+          <span class="title">Reuniting Finley and Bohlman</span>
+          <span class="small">Oregon Historical Society and Oregon State University</span>
+        </h3>
+        <div>&nbsp;</div>
+      </a>
+    </div>
     <div class="span4">
   	    <section id="cta">
             <h1 class="module__hed"><a href="http://ohs.org/research-and-library/" target="_blank">Visit Our Research Library</a></h1>
             <a class="more-link--large" href="http://ohs.org/research-and-library/" target="_blank"><!--[if gte IE 9]><!--><svg viewBox='0 0 100 100' class='icon-chevron-right-large'><use xlink:href='#icon-chevron-right'></use></svg><!--<![endif]--></a>
         </section>
-
 	  </div>
-</div>
+  </div>
 </div>
 <div class="container">
 <div id="slideshow">
