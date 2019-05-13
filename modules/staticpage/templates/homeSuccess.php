@@ -48,7 +48,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
       </a>
     </div>
     <div class="span8" id="virtual-exhibit">
-      <a href="/reuniting-finley-and-bohlman">
+      <a href="/digitizing-the-oregon-story">
         <h3>
           <?php echo __('Featured Project') ?>
           <span class="title">Digitizing the Oregon Story</span>
