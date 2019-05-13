@@ -50,9 +50,9 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
     <div class="span8" id="virtual-exhibit">
       <a href="/reuniting-finley-and-bohlman">
         <h3>
-          <?php echo __('Partnership') ?>
-          <span class="title">Reuniting Finley and Bohlman</span>
-          <span class="small">Oregon Historical Society and Oregon State University</span>
+          <?php echo __('Featured Project') ?>
+          <span class="title">Digitizing the Oregon Story</span>
+          <span class="small">Legal and Political Oral Histories</span>
         </h3>
         <div>&nbsp;</div>
       </a>
@@ -79,11 +79,11 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
   <div id="slide2" class="mySlides">
-  <a href="/us-ohy-org-lot-93">
+  <a href="/reuniting-finley-and-bohlman">
     <h3>
-		<?php echo __('Featured Collection') ?>
-		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
-		<div class="small">Stereographs, 1861-1873</div>
+		<?php echo __('Partnership') ?>
+		<div class="title">Reuniting Finley and Bohlman</div>
+		<div class="small">Oregon Historical Society and Oregon State University</div>
 		</h3>
 	</a>
   </div>
