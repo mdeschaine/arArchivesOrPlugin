@@ -81,7 +81,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   <div id="slide2" class="mySlides">
   <a href="/reuniting-finley-and-bohlman">
     <h3>
-		<?php echo __('Partnership') ?>
+		<?php echo __('Featured Collection') ?>
 		<div class="title">Reuniting Finley and Bohlman</div>
 		<div class="small">Oregon Historical Society and Oregon State University</div>
 		</h3>
