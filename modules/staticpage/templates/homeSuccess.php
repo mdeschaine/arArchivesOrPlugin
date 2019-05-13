@@ -51,8 +51,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
       <a href="/digitizing-the-oregon-story">
         <h3>
           <?php echo __('Featured Project') ?>
-          <span class="title">Digitizing the Oregon Story: Legal and Political Oral Histories</span>
-          <span class="small"></span>
+          <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
+          <span class="small">LSTA </span>
         </h3>
         <div>&nbsp;</div>
       </a>
