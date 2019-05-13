@@ -52,7 +52,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
         <h3>
           <?php echo __('Featured Project') ?>
           <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
-          <span class="small">Institute of Museum and Library Services through the Library Services and Technology Act</span>
+          <span class="small">Institute of Museum and Library Services</span>
         </h3>
         <div>&nbsp;</div>
       </a>
