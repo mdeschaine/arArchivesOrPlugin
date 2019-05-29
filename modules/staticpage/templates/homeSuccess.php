@@ -169,10 +169,10 @@ function showSlides(n) {
       <h2 class="partner-sites__hed">Content Partners</h2>
       <div class="partner-sites__grid">
         <a class="partner-site" href="/the-immigrant-story">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/TIS_logo.png);"></div>
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.png);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
-              <h1 class="partner-site__hed"></h1>
+              <h1 class="partner-site__hed">The Immigrant Story</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
