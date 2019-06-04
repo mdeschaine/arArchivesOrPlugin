@@ -108,8 +108,8 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide5" class="mySlides">
-    <a href="/org-lot-151-portland-general-electric-photograph-collection" title="Browse PGE Photographs">
+  <div id="slide5" class="mySlides" title="Browse PGE Photographs">
+    <a href="/org-lot-151-portland-general-electric-photograph-collection">
     <h3>
     <?php echo __('Featured Collection') ?>
     <div class="title">Portland General Electric Photograph Collection</div>
