@@ -48,7 +48,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
       </a>
     </div>
     <div class="span8" id="virtual-exhibit">
-      <a href="/digitizing-the-oregon-story">
+      <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project">
         <h3>
           <?php echo __('Featured Project') ?>
           <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
@@ -109,7 +109,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
   </div>
 
   <div id="slide5" class="mySlides">
-    <a href="/org-lot-151-portland-general-electric-photograph-collection">
+    <a href="/org-lot-151-portland-general-electric-photograph-collection" title="Browse PGE Photographs">
     <h3>
     <?php echo __('Featured Collection') ?>
     <div class="title">Portland General Electric Photograph Collection</div>
