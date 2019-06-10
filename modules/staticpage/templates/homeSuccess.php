@@ -48,7 +48,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
       </a>
     </div>
     <div class="span8" id="virtual-exhibit">
-      <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project">
+      <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project.">
         <h3>
           <?php echo __('Featured Project') ?>
           <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
@@ -69,7 +69,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div id="slideshow">
   <div class="slideshow-container">
 
-  <div id="slide1" class="mySlides" title="Browse Oregon Journal Photographs">
+  <div id="slide1" class="mySlides" title="Browse Oregon Journal Photographs.">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -78,7 +78,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 		</h3>
 	</a>
   </div>
-  <div id="slide2" class="mySlides" title="Read more about the Reuniting Finley and Bohlman Project">
+  <div id="slide2" class="mySlides" title="Read more about the Reuniting Finley and Bohlman Project.">
   <a href="/reuniting-finley-and-bohlman">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -88,7 +88,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide3" class="mySlides" title="Browse Kiser Photographs">
+  <div id="slide3" class="mySlides" title="Browse Kiser Photographs.">
     <a href="/us-ohy-org-lot-140">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -98,7 +98,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide4" class="mySlides" title="Browse Joel Palmer Papers">
+  <div id="slide4" class="mySlides" title="Browse Joel Palmer Papers.">
     <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -108,7 +108,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide5" class="mySlides" title="Browse PGE Photographs">
+  <div id="slide5" class="mySlides" title="Browse PGE Photographs.">
     <a href="/org-lot-151-portland-general-electric-photograph-collection">
     <h3>
     <?php echo __('Featured Collection') ?>
@@ -168,7 +168,7 @@ function showSlides(n) {
     <div class="partner-sites">
       <h2 class="partner-sites__hed">Content Partners</h2>
       <div class="partner-sites__grid">
-        <a class="partner-site" href="/the-immigrant-story" title="Browse The Immigrant Story collection">
+        <a class="partner-site" href="/the-immigrant-story" title="Browse The Immigrant Story collection.">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.png);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
@@ -176,7 +176,7 @@ function showSlides(n) {
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
-        </a><a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories" title="Browse the Gay and Lesbian Archive of the Pacific Northwest collection">
+        </a><a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories" title="Browse the Gay and Lesbian Archive of the Pacific Northwest collection.">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
@@ -185,7 +185,7 @@ function showSlides(n) {
             </div>
           </div>
         </a>
-        <a class="partner-site" href="/united-states-district-court-oral-history-project" title="Browse the U.S. District Court Historical Society collection">
+        <a class="partner-site" href="/united-states-district-court-oral-history-project" title="Browse the U.S. District Court Historical Society collection.">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box2.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
