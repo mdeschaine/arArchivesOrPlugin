@@ -85,7 +85,16 @@ h6 {
     margin: inherit;
     padding: inherit;
   }
-
+ section > a:after {
+      content: "»";
+      position: absolute;
+      top: 0px;
+      right: 20px;
+      font-size: 26.25px;
+      color: #999;
+      transition-property: right;
+      transition-duration: 200ms;
+  }
   h1,
   h2 {
   font-family: @sansBoldFontFamily;
