@@ -168,15 +168,7 @@ function showSlides(n) {
     <div class="partner-sites">
       <h2 class="partner-sites__hed">Content Partners</h2>
       <div class="partner-sites__grid">
-        <a class="partner-site" href="/the-immigrant-story" title="Browse The Immigrant Story collection.">
-          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.png);"></div>
-          <div class="partner-site__text-holder">
-            <div class="partner-site__text">
-              <h1 class="partner-site__hed">The Immigrant Story</h1>
-              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
-            </div>
-          </div>
-        </a><a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories" title="Browse the Gay and Lesbian Archive of the Pacific Northwest collection.">
+        <a class="partner-site" href="/gay-and-lesbian-archives-of-the-pacific-northwest-oral-histories">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box1.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
@@ -185,11 +177,20 @@ function showSlides(n) {
             </div>
           </div>
         </a>
-        <a class="partner-site" href="/united-states-district-court-oral-history-project" title="Browse the U.S. District Court Historical Society collection.">
+        <a class="partner-site" href="/united-states-district-court-oral-history-project">
           <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box2.jpg);"></div>
           <div class="partner-site__text-holder">
             <div class="partner-site__text">
               <h1 class="partner-site__hed">U.S. District Court of Oregon<br>Historical Society</h1>
+              <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
+            </div>
+          </div>
+        </a>
+        <a class="partner-site" href="/oregon-labor-oral-history-program">
+          <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
+          <div class="partner-site__text-holder">
+            <div class="partner-site__text">
+              <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
               <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
             </div>
           </div>
