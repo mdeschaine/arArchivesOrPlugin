@@ -41,18 +41,18 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div class="container">
   <div id="homepage" class="row">
 
-    <div class="mod-new">
+    <div class="mod-new" title="See what's new">
         <a class="mod-link" href="/informationobject/browse?sort=lastUpdated&view=card&onlyMedia=1&topLod=0">
           <div class="mod-img" style="background-image:url(/plugins/arArchivesOrPlugin/images/new-box.jpg);"></div>
         <div class="mod mod-over-img">See What's New</div>
       </a>
     </div>
     <div class="span8" id="virtual-exhibit">
-      <a href="/reuniting-finley-and-bohlman">
+      <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project.">
         <h3>
-          <?php echo __('Partnership') ?>
-          <span class="title">Reuniting Finley and Bohlman</span>
-          <span class="small">Oregon Historical Society and Oregon State University</span>
+          <?php echo __('Featured Project') ?>
+          <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
+          <span class="small">Institute of Museum and Library Services</span>
         </h3>
         <div>&nbsp;</div>
       </a>
@@ -69,7 +69,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 <div id="slideshow">
   <div class="slideshow-container">
 
-  <div id="slide1" class="mySlides">
+  <div id="slide1" class="mySlides" title="Browse Oregon Journal Photographs.">
     <a href="/us-ohy-org-lot-1368">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -78,17 +78,17 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 		</h3>
 	</a>
   </div>
-  <div id="slide2" class="mySlides">
-  <a href="/us-ohy-org-lot-93">
+  <div id="slide2" class="mySlides" title="Read more about the Reuniting Finley and Bohlman Project.">
+  <a href="/reuniting-finley-and-bohlman">
     <h3>
 		<?php echo __('Featured Collection') ?>
-		<div class="title">Carleton E. Watkins photographs, 1861-1885</div>
-		<div class="small">Stereographs, 1861-1873</div>
+		<div class="title">Reuniting Finley and Bohlman</div>
+		<div class="small">Oregon Historical Society and Oregon State University</div>
 		</h3>
 	</a>
   </div>
 
-  <div id="slide3" class="mySlides">
+  <div id="slide3" class="mySlides" title="Browse Kiser Photographs.">
     <a href="/us-ohy-org-lot-140">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -98,7 +98,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide4" class="mySlides">
+  <div id="slide4" class="mySlides" title="Browse Joel Palmer Papers.">
     <a href="/us-ohy-mss-114">
     <h3>
 		<?php echo __('Featured Collection') ?>
@@ -108,7 +108,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 	</a>
   </div>
 
-  <div id="slide5" class="mySlides">
+  <div id="slide5" class="mySlides" title="Browse PGE Photographs.">
     <a href="/org-lot-151-portland-general-electric-photograph-collection">
     <h3>
     <?php echo __('Featured Collection') ?>

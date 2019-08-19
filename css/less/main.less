@@ -85,12 +85,16 @@ h6 {
     margin: inherit;
     padding: inherit;
   }
-
-
-
-
-
-
+   section > a:after {
+      content: "»";
+      position: absolute;
+      top: 0px;
+      right: 20px;
+      font-size: 26.25px;
+      color: #999;
+      transition-property: right;
+      transition-duration: 200ms;
+  }
   h1,
   h2 {
   font-family: @sansBoldFontFamily;
@@ -114,7 +118,7 @@ h6 {
 	text-transform: uppercase;
   }
   p {
-  	margin: 10px 0 10px 0;
+  	margin: 0px 0 10px 0;
   }
 
 	section h2:last-child {
@@ -122,7 +126,7 @@ h6 {
 	  border-top: 1px solid #f2f2f2;
 	  border-bottom: 1px solid #f2f2f2;
 	  margin: 0;
-	  padding: 10px 10px;
+	  padding: 0px 10px;
 	}
 
  ul {
@@ -572,7 +576,8 @@ h1 .count {
 }
 
 #treeview-search .search-box input {
-  .placeholder(#bbb);
+  .placeholder(#fff);
+  padding: 4px 6px;
 }
 
 #treeview-list, #treeview-list .pager li > a {
@@ -781,6 +786,10 @@ select {
   border-bottom: 1px solid @grayLighter;
   .clearfix();
 
+  p {
+    margin: 10px 0 10px 0 !important;
+  }
+
   a {
     text-decoration: none;
 	}
@@ -816,7 +825,7 @@ select {
 
 .top-dropdown, button.top-dropdown:link, button.top-dropdown:visited, button.top-dropdown:active {
     padding: 5px 29px 6px 17px;
-    background-image: url(../../arDominionPlugin/images/gray-arrow.png);
+    background-image: url(../../images/gray-arrow.png);
     background-position: right center;
     background-repeat: no-repeat;
     color: #bbb;
