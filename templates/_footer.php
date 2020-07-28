@@ -24,12 +24,11 @@
 </div>
 <div class="foot-hours">
 <a name="hours" id="hours"></a><h3 class="foot__section-title">Library Hours</h3>
-<p><span class="foot-hours__times">Tuesdays:
-<br>1pm – 5pm
-<br>Wednesday – Saturday:
-<br>10am – 5pm</span></p></div>
+<p><span class="foot-hours__times">Downtown reading room closed for renovation through late 2020</span></p>
+<p><a class="CP___PAGEID_55275" href="/research-and-library/visit-the-library/research-library-renovation.cfm">Library Renovation FAQs</a></p></div>
 <div class="foot-resources">
 <h3 class="foot__section-title">Support OHS <br>Digital Collections</h3>
+<p>The Oregon Historical Society is a 501(c)(3) non-profit organization. Federal Tax ID 93-0391599.</p>	
 <p><a href="https://orhs.ejoinme.org/digitalcollections" target="_blank">Donate Online</a>
 <br><a href="http://www.ohs.org/support/forward-campaign.cfm" target="_blank">FORWARD! Campaign</a></p>
 </div>
