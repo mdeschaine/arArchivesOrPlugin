@@ -119,6 +119,15 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     </h3>
                 </a>
             </div>
+            <div id="slide6" class="mySlides" title="Browse OHS Maps.">
+                <a href="/ohs-maps-collection">
+                    <h3>
+                        <?php echo __('Featured Collection') ?>
+                        <div class="title">OHS Maps Collection</div>
+                        <div class="small">Oregon Skyline Trail : Pacific Crest system, 1936</div>
+                    </h3>
+                </a>
+            </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -129,6 +138,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                 <span class="dot" onclick="currentSlide(3)"></span>
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
             </div>
         </div>
 
