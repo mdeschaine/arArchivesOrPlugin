@@ -207,7 +207,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
                     <div class="partner-site__text-holder">
                         <div class="partner-site__text">
-                            <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
+                            <h1 class="partner-site__hed">The Immigrant Story</h1>
                             <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
                         </div>
                     </div>
