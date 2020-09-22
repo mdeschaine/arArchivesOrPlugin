@@ -75,7 +75,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
 
 
             <div id="slide1" class="mySlides" title="Learn more about the Al Monner News Negatives.">
-                <a href="/org-lot-1284-al-monner-news-negatives">
+                <a href="/monner-project">
                     <h3>
                         <?php echo __('Featured Collection') ?>
                         <div class="title">Al Monner News Negatives</div>
@@ -88,7 +88,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     <h3>
                         <?php echo __('Featured Collection') ?>
                         <div class="title">Reuniting Finley and Bohlman</div>
-                        <div class="small">Oregon Historical Society and Oregon State University</div>
+                        <div class="small">A partnership between Oregon Historical Society and Oregon State University</div>
                     </h3>
                 </a>
             </div>
@@ -203,11 +203,11 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                         </div>
                     </div>
                 </a>
-                <a class="partner-site" href="/oregon-labor-oral-history-program">
+                <a class="partner-site" href="/the-immigrant-story">
                     <div class="partner-site__img" style="background-image:url(/plugins/arArchivesOrPlugin/images/box3.jpg);"></div>
                     <div class="partner-site__text-holder">
                         <div class="partner-site__text">
-                            <h1 class="partner-site__hed">Oregon Labor<br>Oral History Program</h1>
+                            <h1 class="partner-site__hed">The Immigrant Story</h1>
                             <div class="partner-site--more-link">More Information <?php echo __('&#10095;') ?></div>
                         </div>
                     </div>
