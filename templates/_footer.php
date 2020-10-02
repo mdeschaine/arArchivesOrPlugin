@@ -26,7 +26,7 @@
             <div class="foot-hours">
                 <a name="hours" id="hours"></a>
                 <h3 class="foot__section-title">Library Hours</h3>
-                <p><span class="foot-hours__times">Downtown reading room closed for renovation through late 2020</span></p>
+                <p><span class="foot-hours__times">Downtown reading room closed for renovation</span></p>
                 <p><a class="CP___PAGEID_55275" href="/research-and-library/visit-the-library/research-library-renovation.cfm">Library Renovation FAQs</a></p>
             </div>
             <div class="foot-resources">
