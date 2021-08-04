@@ -47,7 +47,7 @@
                     <input type="hidden" name="prev_member_email" value="">
                     <div class="input-fancy-lockup input-fancy-lockup--foot">
                         <span class="input-fancy input-fancy--email">
-                            <input class="input-fancy__field input-fancy__field--email" type="text" id="id_email" name="email">
+                            <input class="input-fancy__field input-fancy__field--email" type="text" id="id_email_form" name="email">
                             <label class="input-fancy__label input-fancy__label--email" for="email">
                                 <span class="input-fancy__label-content input-fancy__label-content--search">Enter your email</span>
                             </label>
