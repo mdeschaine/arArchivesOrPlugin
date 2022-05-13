@@ -39,22 +39,8 @@
         <div class="foot__right-side">
             <div class="foot-newsletter">
                 <h3 class="foot__section-title">Newsletter</h3>
-                <p>Want to keep up with the latest news from The Oregon Historical Society? Sign up to receive our newsletter!</p>
-                <form method="post" id="signup" name="signup" action="https://app.e2ma.net/app2/audience/signup/1780482/32549/">
-                    <input type="hidden" name="prev_member_email" id="id_prev_member_email">
-                    <input type="hidden" name="source" id="id_source">
-                    <input type="hidden" name="group_704293" value="704293" id="id_group_704293">
-                    <input type="hidden" name="prev_member_email" value="">
-                    <div class="input-fancy-lockup input-fancy-lockup--foot">
-                        <span class="input-fancy input-fancy--email">
-                            <input class="input-fancy__field input-fancy__field--email" type="text" id="id_email_form" name="email">
-                            <label class="input-fancy__label input-fancy__label--email" for="email">
-                                <span class="input-fancy__label-content input-fancy__label-content--search">Enter your email</span>
-                            </label>
-                            <input type="submit" value="Sign Up" name="Submit" class="input-fancy-lockup__submit" id="foot_newsletter_submit">
-                        </span>
-                    </div>
-                </form>
+                <p>Want to keep up with the latest news from The Oregon Historical Society?</p>
+                <p><strong><a href="https://app.e2ma.net/app2/audience/signup/1780482/32549/" target="blank">Sign up to receive our newsletter!</a></strong></p>
             </div>
             <div class="foot-social">
                 <h3 class="foot__section-title">Follow Us</h3>
