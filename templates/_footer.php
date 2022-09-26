@@ -26,7 +26,10 @@
             <div class="foot-hours">
                 <a name="hours" id="hours"></a>
                 <h3 class="foot__section-title">Library Hours</h3>
-                <p><span class="foot-hours__times">Downtown reading room open for in person research by appointment.</span></p>
+                <p><span class="foot-hours__times">Tuesdays:
+                    <br>1pm – 5pm
+                    <br>Wednesday – Saturday:
+                    <br>10am – 5pm</span></p></div>
                 <p><a class="CP___PAGEID_55275" href="https://www.ohs.org/research-and-library/visit-the-library/index.cfm" target="_blank">Visit the Library</a></p>
             </div>
             <div class="foot-resources">
