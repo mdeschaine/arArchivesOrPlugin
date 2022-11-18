@@ -13,7 +13,7 @@
                 <p>Oregon Historical Society <br>1200 SW Park Ave <br>Portland, OR 97205</p>
                 <p><a href="tel:+15032221741">503.306.5240</a><br> <a href="mailto:libreference@ohs.org ">libreference@ohs.org</a><br> <a href="http://www.ohs.org/contact.cfm" target="_blank">Staff Directory</a></p>
             </div>
-            <div class="foot-support">
+            <div class="foot-resources">
                 <h3 class="foot__section-title">Resources</h3>
                 <ul>
                     <li><?php echo link_to(__('About'), array('module' => 'staticpage', 'slug' => 'about')) ?></li>
@@ -32,7 +32,7 @@
                     <br>10am – 5pm</span></p>
                 <p><a class="CP___PAGEID_55275" href="https://www.ohs.org/research-and-library/visit-the-library/index.cfm" target="_blank">Visit the Library</a></p>
             </div>
-            <div class="foot-resources">
+            <div class="foot-support">
                 <h3 class="foot__section-title">Support OHS <br>Digital Collections</h3>
                 <p>The Oregon Historical Society is a 501(c)(3) non-profit organization. Federal Tax ID 93-0391599.</p>
                 <p><a href="https://orhs.ejoinme.org/digitalcollections" target="_blank">Donate Online</a>
@@ -60,9 +60,6 @@
                     <li class="social-icons__item"><a class="social-icons__link" title="YouTube" href="http://www.youtube.com/channel/UCeCtHcPsdEys360N-qyPUPA" target="_blank"><svg viewBox="0 0 100 100" class="icon-youtube">
                                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use>
                             </svg></a><span class="screen-reader">YouTube</span></li>
-                    <li class="social-icons__item"><a class="social-icons__link" title="Tumblr" href="http://ohsresearchlibrary.tumblr.com/" target="_blank"><svg viewBox="0 0 100 100" class="icon-tumblr">
-                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-tumblr"></use>
-                            </svg></a><span class="screen-reader">Tumblr</span></li>
                 </ul>
             </div>
         </div>
