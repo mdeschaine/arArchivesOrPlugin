@@ -48,10 +48,10 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
             </a>
         </div>
         <div class="span8" id="virtual-exhibit">
-            <a href="/digitizing-the-oregon-story" title="Read more about the Digitizing the Oregon Story project.">
+            <a href="/yasui" title="Read more about the Yasui Brothers Company Records.">
                 <h3>
                     <?php echo __('Featured Project') ?>
-                    <span class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</span>
+                    <span class="title">So Much More Than a General Store: Uncovering the Records of the Yasui Brothers Company</span>
                     <span class="small">Institute of Museum and Library Services</span>
                 </h3>
                 <div>&nbsp;</div>
@@ -77,7 +77,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
             <div id="slide1" class="mySlides" title="Learn more about the Al Monner News Negatives.">
                 <a href="/monner-project">
                     <h3>
-                        <?php echo __('Featured Collection') ?>
+                        <?php echo __('Featured Project') ?>
                         <div class="title">Al Monner News Negatives</div>
                         <div class="small">Celebrating the end of World War II, downtown Portland</div>
                     </h3>
@@ -86,7 +86,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
             <div id="slide2" class="mySlides" title="Read more about the Reuniting Finley and Bohlman Project.">
                 <a href="/reuniting-finley-and-bohlman">
                     <h3>
-                        <?php echo __('Featured Collection') ?>
+                        <?php echo __('Featured Project') ?>
                         <div class="title">Reuniting Finley and Bohlman</div>
                         <div class="small">A partnership between Oregon Historical Society and Oregon State University</div>
                     </h3>
@@ -128,6 +128,15 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     </h3>
                 </a>
             </div>
+            <div id="slide7" class="mySlides" title="Read more about the Digitizing the Oregon Story project.">
+                <a href="/digitizing-the-oregon-story">
+                    <h3>
+                        <?php echo __('Featured Project') ?>
+                        <div class="title">Digitizing the Oregon Story: Creating Access to Significant Legal and Political Oral Histories</div>
+                        <div class="small">Institute of Museum and Library Services</div>
+                    </h3>
+                </a>
+            </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -139,6 +148,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
                 <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
             </div>
         </div>
 
