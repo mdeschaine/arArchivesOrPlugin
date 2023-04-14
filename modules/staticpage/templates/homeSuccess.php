@@ -74,12 +74,12 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
         <div class="slideshow-container">
 
 
-            <div id="slide1" class="mySlides" title="Learn more about the Al Monner News Negatives.">
-                <a href="/monner-project">
+            <div id="slide1" class="mySlides" title="Browse OHS Maps.">
+                <a href="/ohs-maps-collection">
                     <h3>
-                        <?php echo __('Featured Project') ?>
-                        <div class="title">Al Monner News Negatives</div>
-                        <div class="small">Celebrating the end of World War II, downtown Portland</div>
+                        <?php echo __('Featured Collection') ?>
+                        <div class="title">OHS Maps Collection</div>
+                        <div class="small">Oregon Skyline Trail : Pacific Crest system, 1936</div>
                     </h3>
                 </a>
             </div>
@@ -119,12 +119,12 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     </h3>
                 </a>
             </div>
-            <div id="slide6" class="mySlides" title="Browse OHS Maps.">
-                <a href="/ohs-maps-collection">
+            <div id="slide6" class="mySlides" title="Learn more about the Al Monner News Negatives.">
+                <a href="/monner-project">
                     <h3>
-                        <?php echo __('Featured Collection') ?>
-                        <div class="title">OHS Maps Collection</div>
-                        <div class="small">Oregon Skyline Trail : Pacific Crest system, 1936</div>
+                        <?php echo __('Featured Project') ?>
+                        <div class="title">Al Monner News Negatives</div>
+                        <div class="small">Celebrating the end of World War II, downtown Portland</div>
                     </h3>
                 </a>
             </div>
