@@ -124,7 +124,7 @@ Kiser Photo Collection, Org Lot 140, Box 4, Folder 41.">
                     <h3>
                         <?php echo __('Featured Project') ?>
                         <div class="title">Al Monner News Negatives</div>
-                        <div class="small">Celebrating the end of World War II, downtown Portland</div>
+                        <div class="small">West Burnside Tunnel construction, 27 February 1940</div>
                     </h3>
                 </a>
             </div>
